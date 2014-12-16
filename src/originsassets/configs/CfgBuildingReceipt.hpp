@@ -12,7 +12,7 @@
 	povyseniJednaSkrytJedna 	= upgrd_1_hide_1
 */
 class CfgBuildingReceipt {
-	class Uroven1DrevenaBudka {
+	class Bandit_Level_1_DZEOCS {
 		Humanity = -2900;
 		Stages = 2;
 		class Stage1 {
@@ -27,7 +27,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class Uroven2KladaDomek {
+	class Bandit_Level_2_DZEOCS {
 		Humanity = -6500;
 		Stages = 4;
 		class Stage1 {
@@ -52,7 +52,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class Uroven3DrevenyDomek {
+	class Bandit_Level_3_DZEOCS {
 		Humanity = -15000;
 		Stages = 8;
 		class Stage1 {
@@ -97,7 +97,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class Uroven1VelkaBudka {
+	class Hero_Level_1_DZEOCS {
 		Humanity = 2900;
 		Stages = 2;
 		class Stage1 {
@@ -112,7 +112,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class Uroven2MalyDomek {
+	class Hero_Level_2_DZEOCS {
 		Humanity = 6500;
 		Stages = 4;
 		class Stage1 {
@@ -137,7 +137,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class Uroven3VelkyDomek {
+	class Hero_Level_3_DZEOCS {
 		Humanity = 15000;
 		Stages = 8;
 		class Stage1 {
@@ -182,7 +182,7 @@ class CfgBuildingReceipt {
 		};
 	};
 	
-	class malaGaraz {
+	class SmallGarage_DZEOCS {
 		Stages = 4;
 		class Stage1 {
 			lockable = 0;
@@ -206,7 +206,7 @@ class CfgBuildingReceipt {
 		};
 	};
 
-	class velkaGaraz {
+	class BigGarage_DZEOCS {
 		Stages = 4;
 		class Stage1 {
 			lockable = 0;
@@ -230,7 +230,7 @@ class CfgBuildingReceipt {
 		};
 	};
 	
-	class krepost {
+	class Stronghold_DZEOCS {
 		Stages = 26;
 		class Stage1 { //foundation
 			lockable = 0;

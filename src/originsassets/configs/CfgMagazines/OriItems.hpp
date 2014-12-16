@@ -853,7 +853,7 @@ class ItemBpt_kr1 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "krepost";
+			create = "Stronghold_DZEOCS";
 		};
 	};
 };
@@ -872,7 +872,7 @@ class ItemBpt_b1 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven1DrevenaBudka";
+			create = "Bandit_Level_1_DZEOCS";
 		};
 	};
 };
@@ -891,7 +891,7 @@ class ItemBpt_b2 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven2KladaDomek";
+			create = "Bandit_Level_2_DZEOCS";
 		};
 	};
 };
@@ -910,7 +910,7 @@ class ItemBpt_b3 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven3DrevenyDomek";
+			create = "Bandit_Level_3_DZEOCS";
 		};
 	};
 };
@@ -929,7 +929,7 @@ class ItemBpt_h1 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven1VelkaBudka";
+			create = "Hero_Level_1_DZEOCS";
 		};
 	};
 };
@@ -948,7 +948,7 @@ class ItemBpt_h2 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven2MalyDomek";
+			create = "Hero_Level_2_DZEOCS";
 		};
 	};
 };
@@ -967,7 +967,7 @@ class ItemBpt_h3 : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "Uroven3VelkyDomek";
+			create = "Hero_Level_3_DZEOCS";
 		};
 	};
 };
@@ -986,7 +986,7 @@ class ItemBpt_g_s : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "malaGaraz";
+			create = "SmallGarage_DZEOCS";
 		};
 	};
 };
@@ -1005,7 +1005,7 @@ class ItemBpt_g_b : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"CementMixer"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "velkaGaraz";
+			create = "BigGarage_DZEOCS";
 		};
 	};
 };
@@ -1024,7 +1024,7 @@ class ItemBpt_b1e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro";
+			create = "Bandit_Nest_Level_1_DZEOCS";
 		};
 	};
 };
@@ -1043,7 +1043,7 @@ class ItemBpt_b2e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro2";
+			create = "Bandit_Nest_Level_2_DZEOCS";
 		};
 	};
 };
@@ -1062,7 +1062,7 @@ class ItemBpt_b3e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro3";
+			create = "Bandit_Nest_Level_3_DZEOCS";
 		};
 	};
 };
@@ -1081,7 +1081,7 @@ class ItemBpt_h1e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro_hero";
+			create = "Hero_Nest_Level_1_DZEOCS";
 		};
 	};
 };
@@ -1100,7 +1100,7 @@ class ItemBpt_h2e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro2_hero";
+			create = "Hero_Nest_Level_2_DZEOCS";
 		};
 	};
 };
@@ -1119,7 +1119,7 @@ class ItemBpt_h3e : CA_Magazine {
 			script = "spawn player_build_blueprint;";
 			neednearby[] = {"BCrane"};
 			require[] = {"ItemEtool","ItemToolbox"};
-			create = "elektro3_hero";
+			create = "Hero_Nest_Level_3_DZEOCS";
 		};
 	};
 };
