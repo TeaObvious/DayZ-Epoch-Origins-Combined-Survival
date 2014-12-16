@@ -98,12 +98,12 @@ class Bandit_Nest_Level_1_DZEOCS : electro
 { 
 	offset[] = {0,12,2};
 };
-class electro;
+class electro2;
 class Bandit_Nest_Level_2_DZEOCS : electro2
 { 
 	offset[] = {0,12,2};
 };
-class electro;
+class electro3;
 class Bandit_Nest_Level_3_DZEOCS : electro3
 { 
 	offset[] = {0,12,2};
@@ -114,13 +114,13 @@ class Hero_Nest_Level_1_DZEOCS : elektro_hero
 { 
 	offset[] = {0,12,2};
 };
-class elektro_hero;
+class elektro_hero2;
 class Hero_Nest_Level_2_DZEOCS : elektro_hero2
 { 
 	offset[] = {0,12,2};
 };
-class elektro_hero;
-class Hero_Nest_Level_3_DZEOCS : elektro_her3
+class elektro_hero3;
+class Hero_Nest_Level_3_DZEOCS : elektro_hero3
 { 
 	offset[] = {0,12,2};
 };
