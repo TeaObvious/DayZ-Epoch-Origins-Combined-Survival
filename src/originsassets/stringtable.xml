@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DayZ">
+  <Package name="feedback"> 
+ </Package>
+  <Package name="ui"> 
+ </Package>
+  <Package name="actions">
+    <Key ID="str_actions_build12">
+      <Original>Build %1</Original>
+      <English>Build %1</English>
+      <German>%1 bauen</German>
+      <Russian>Установить %1</Russian>
+    </Key>
+  </Package>
+  <Package name="Memory_h"> 
+ </Package>
+  <Package name="equipment">
+    <Key ID="STR_EQUIP_NAME_b_1">
+      <Original>Broken etrenching tool</Original>
+      <English>Broken entrenching tool</English>
+      <German>gebrochen Klappspaten</German>
+      <Russian>Сломанная cаперная лопатка</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_2">
+      <Original>Broken toolbox</Original>
+      <English>Broken toolbox</English>
+      <German>gebrochene Werkzeugkoffer</German>
+      <Russian>Сломанный набор инструментов</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_3">
+      <Original>Broken box of matches</Original>
+      <English>Broken box of matches</English>
+      <German>gebrochen Schachtel Streichhölzer</German>
+      <Russian>Сломанный коробок спичек</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_4">
+      <Original>Broken hunting knife</Original>
+      <English>Broken hunting knife</English>
+      <German>gebrochen Jagdmesser</German>
+      <Russian>Сломанный oхотничий нож</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_5">
+      <Original>Broken flashlight</Original>
+      <English>Broken flashlight</English>
+      <German>gebrochen Taschenlampe</German>
+      <Russian>Сломанный фонарик</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_6">
+      <Original>Broken flashlight (military)</Original>
+      <English>Broken flashlight (military)</English>
+      <German>gebrochen militärtaschenlampe</German>
+      <Russian>Сломанный армейский фонарик</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_7">
+      <Original>Broken map</Original>
+      <English>Broken map</English>
+      <German>gebrochen Karte</German>
+      <Russian>Порванная карта</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_8">
+      <Original>Broken compass</Original>
+      <English>Broken compass</English>
+      <German>gebrochen Kompass</German>
+      <Russian>Сломанный компас</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_9">
+      <Original>Broken watch</Original>
+      <English>Broken watch</English>
+      <German>gebrochen Uhr</German>
+      <Russian>Сломанные часы</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_10">
+      <Original>Broken GPS</Original>
+      <English>Broken GPS</English>
+      <German>gebrochen GPS</German>
+      <Russian>Сломанный GPS</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_11">
+      <Original>Broken fuel hose</Original>
+      <English>Broken fuel hose</English>
+      <German>gebrochen Benzinschlauch</German>
+      <Russian>Сломанный топливный шланг</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_12">
+      <Original>Broken towing cable</Original>
+      <English>Broken towing cable</English>
+      <German>gebrochen Zugseil</German>
+      <Russian>Сломанный буксирный трос</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_13">
+      <Original>Broken old rope</Original>
+      <English>Broken old rope</English>
+      <German>gebrochen Altes Seil</German>
+      <Russian>Порванная верёвка</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_14">
+      <Original>Broken EILSC Tool</Original>
+      <English>Broken EILSC Tool</English>
+      <German>Broken EILSC Tool</German>
+      <Russian>Broken EILSC Tool</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_15">
+      <Original>Broken EIL Locker</Original>
+      <English>Broken EIL Locker</English>
+      <German>Broken EIL Locker</German>
+      <Russian>Broken EIL Locker</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_16">
+      <Original>Broken PDA Electronica</Original>
+      <English>Broken PDA Electronica</English>
+      <German>Broken PDA Electronica</German>
+      <Russian>Сломанный КПК Электроника</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_17">
+      <Original>Broken Walkie-talkie</Original>
+      <English>Broken Walkie-talkie</English>
+      <German>gebrochen Altes Seil</German>
+      <Russian>Сломанная рация</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_18">
+      <Original>Broken pickaxe</Original>
+      <English>Broken pickaxe</English>
+      <German>gebrochen Spitzhacke</German>
+      <Russian>Сломанная кирка</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_19">
+      <Original>Broken old saw</Original>
+      <English>Broken old saw</English>
+      <German>gebrochen säge</German>
+      <Russian>Сломанная пила</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_20">
+      <Original>Broken old hammer</Original>
+      <English>Broken old hammer</English>
+      <German>gebrochen Alte Hammer</German>
+      <Russian>Сломанный молоток</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_21">
+      <Original>Broken old pliers</Original>
+      <English>Broken old pliers</English>
+      <German>gebrochen Alte Zangen</German>
+      <Russian>Сломанные клещи</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_b_22">
+      <Original>Broken hatchet</Original>
+      <English>Broken hatchet</English>
+      <German>gebrochen Axt</German>
+      <Russian>Сломанный топорик</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_47">
+      <Original>Reinforcing material</Original>
+      <English>Reinforcing material</English>
+      <German>Verstärkungsmaterial</German>
+      <Russian>Армирующий материал</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_47">
+      <Original>Sheets of old metal</Original>
+      <English>Sheets of old metal</English>
+      <German>Platten aus alten Metall</German>
+      <Russian>Листы из старого метала</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_48">
+      <Original>Big Jerry Can</Original>
+      <English>Big Jerry Can</English>
+      <German>Großer Benzinkanister</German>
+      <Russian>Большая канистра с топливом</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_48">
+      <Original>80 litre Jerry Can that can be used for refueling vehicles and powering generators.</Original>
+      <English>80 litre Jerry Can that can be used for refueling vehicles and powering generators.</English>
+      <German>Ein 80-Liter-Kanister, der zum Betanken von Fahrzeugen und Generatoren verwendet werden kann.</German>
+      <Russian>80-ти литровая канистра для заправки техники и генераторов.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_49">
+      <Original>Big Jerry Can (Empty)</Original>
+      <English>Big Jerry Can (Empty)</English>
+      <German>Leerer großer Benzinkanister</German>
+      <Russian>Канистра 80(пустая)</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_49">
+      <Original>An empty 80 litre Jerry Can that can be filled from cars or petrol stations.</Original>
+      <English>An empty 80 litre Jerry Can that can be filled from cars or petrol stations.</English>
+      <German>Ein leerer 80-Liter-Benzinkanister, der an Fahrzeugen oder Tankstellen aufgefüllt werden kann.</German>
+      <Russian>Пустая 80-ти литровая канистра, которая может быть наполнена топливом, слитым из машины или заправочной станции.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_51">
+      <Original>Fuel hose</Original>
+      <English>Fuel hose</English>
+      <German>Benzinschlauch</German>
+      <Russian>Топливный шланг</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_51">
+      <Original>Fuel hose used for filling and draining the fuel.</Original>
+      <English>Fuel hose used for filling and draining the fuel.</English>
+      <German>Benzinschlauch zum Füllen und Entleeren des verwendeten Kraftstoffs.</German>
+      <Russian>Топливный шланг используется для заправки и слива топлива.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_52">
+      <Original>Towing cable</Original>
+      <English>Towing cable</English>
+      <German>Zugseil</German>
+      <Russian>Буксирный трос</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_52">
+      <Original>Towing cable is used for transporting vehicles.</Original>
+      <English>Towing cable is used for transporting vehicles.</English>
+      <German>Zugseil ist für den Transport von Fahrzeugen eingesetzt.</German>
+      <Russian>Буксирный трос используется для транспортировки техники.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_53">
+      <Original>EIL Locker</Original>
+      <English>EIL Locker</English>
+      <German>EIL Locker</German>
+      <Russian>EIL Locker</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_53">
+      <Original>EIL Locker is used for lock Flying Fortress.</Original>
+      <English>EIL Locker is used for lock Flying Fortress.</English>
+      <German>Elektronische Instrumente Schließfach.</German>
+      <Russian>EIL Locker используется для блокировки Летающей Крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_54">
+      <Original>Electrical Circuits</Original>
+      <English>Electrical Circuits</English>
+      <German>Elektrische Schaltungen</German>
+      <Russian>Электрические cхемы</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_54">
+      <Original>Used to regulate power to Flying Fortress.</Original>
+      <English>Used to regulate power to Flying Fortress.</English>
+      <German>Wird verwendet, um Macht, Flying Fortress regulieren.</German>
+      <Russian>Используется для регулирования мощности в Летающей Крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_55">
+      <Original>Computer Chips</Original>
+      <English>Computer Chips</English>
+      <German>Computer-Chips</German>
+      <Russian>Компьютерные чипы</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_55">
+      <Original>Used for flight controls in Flying Fortress.</Original>
+      <English>Used for flight controls in Flying Fortress.</English>
+      <German>Verwendet für Flugsteuerung in Flying Fortress.</German>
+      <Russian>Используется для управления полетом в Летающей крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_56">
+      <Original>Central Carburetor</Original>
+      <English>Central Carburetor</English>
+      <German>Zentral-Vergaser</German>
+      <Russian>Центральная Карбюратор</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_56">
+      <Original>Heat exchanger with cooling fluids used in Flying Fortress.</Original>
+      <English>Heat exchanger with cooling fluids used in Flying Fortress.</English>
+      <German>Wärmetauscher mit Kühlflüssigkeiten in Flying Fortress verwendet.</German>
+      <Russian>Теплообменник охлаждения жидкостей в Летающей крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_57">
+      <Original>Wheel clamp</Original>
+      <English>Wheel clamp</English>
+      <German>Radklemme</German>
+      <Russian>Зажим для колес</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_57">
+      <Original>Used to secure cars for transport in Flying Fortress.</Original>
+      <English>Used to secure cars for transport in Flying Fortress.</English>
+      <German>Wird verwendet, um Autos für den Transport in Flying Fortress zu sichern.</German>
+      <Russian>Крепления автомобилей для перевозки в Летающей крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_58">
+      <Original>Old rope</Original>
+      <English>Old rope</English>
+      <German>Altes Seil</German>
+      <Russian>Старая верёвка</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_58">
+      <Original>A piece of an old rope.</Original>
+      <English>A piece of an old rope.</English>
+      <German>Ein Stück der alten Seil.</German>
+      <Russian>Кусок старой верёвки.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_59">
+      <Original>Walkie-talkie</Original>
+      <English>Walkie-talkie</English>
+      <German>Altes Seil</German>
+      <Russian>Рация</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_59">
+      <Original>A walkie-talkie - more formally known as a handheld transceiver, can pick up radio signals trnasmitted near by.</Original>
+      <English>A walkie-talkie - more formally known as a handheld transceiver, can pick up radio signals trnasmitted near by.</English>
+      <German>Das Radio - tragbare Transceiver, können Sie fangen die Funksignale von der Nähe übertragen.</German>
+      <Russian>Рация - портативный приемопередатчик, можете уловить радиосигналы передаваемые поблизости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_60">
+      <Original>EILSC Tool</Original>
+      <English>EILSC Tool</English>
+      <German>EILSC Tool</German>
+      <Russian>EILSC Tool</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_60">
+      <Original>EILSC Tool - Very rare item, used to force unlock the Flying Fortress.</Original>
+      <English>EILSC Tool - Very rare item, used to force unlock the Flying Fortress.</English>
+      <German>EILSC Tool - Absolute Rarität, gebraucht zu zwingen Entsperren des Flying Fortress.</German>
+      <Russian>EILSC Tool очень редкий предмет, для взлома блокировки Летающей Крепости.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_61">
+      <Original>Blue spray can</Original>
+      <English>Blue spray can</English>
+      <German>Blau spray</German>
+      <Russian>Синий спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_61">
+      <Original>A 350ml blue spray paint can for any material.</Original>
+      <English>A 350ml blue spray paint can for any material.</English>
+      <German>Eine 350ml blau Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c синей краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_62">
+      <Original>Green spray can</Original>
+      <English>Green spray can</English>
+      <German>Grün spray</German>
+      <Russian>Зелёный спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_62">
+      <Original>A 350ml green spray paint can for any material.</Original>
+      <English>A 350ml green spray paint can for any material.</English>
+      <German>Eine 350ml Grün Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c зелёной краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_63">
+      <Original>Pink spray can</Original>
+      <English>Pink spray can</English>
+      <German>Rosa spray</German>
+      <Russian>Розовый спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_63">
+      <Original>A 350ml pink spray paint can for any material.</Original>
+      <English>A 350ml pink spray paint can for any material.</English>
+      <German>Eine 350ml rosa Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c розовой краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_64">
+      <Original>Black spray can</Original>
+      <English>Black spray can</English>
+      <German>schwarz spray</German>
+      <Russian>Чёрный спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_64">
+      <Original>A 350ml black spray paint can for any material.</Original>
+      <English>A 350ml black spray paint can for any material.</English>
+      <German>Eine 350ml schwarz Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c чёрной краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_65">
+      <Original>Red spray can</Original>
+      <English>Red spray can</English>
+      <German>rote spray</German>
+      <Russian>Красный спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_65">
+      <Original>A 350ml red spray paint can for any material.</Original>
+      <English>A 350ml red spray paint can for any material.</English>
+      <German>Eine 350ml rote Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c красной краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_66">
+      <Original>Yellow spray can</Original>
+      <English>Yellow spray can</English>
+      <German>gelb spray</German>
+      <Russian>Жёлтый спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_66">
+      <Original>A 350ml yellow spray paint can for any material.</Original>
+      <English>A 350ml yellow spray paint can for any material.</English>
+      <German>Eine 350ml gelb Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c жёлтой краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_67">
+      <Original>White spray can</Original>
+      <English>White spray can</English>
+      <German>Weiß spray</German>
+      <Russian>Белый спрей</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_67">
+      <Original>A 350ml white spray paint can for any material.</Original>
+      <English>A 350ml white spray paint can for any material.</English>
+      <German>Eine 350ml Weiß Spraydosen für jedes Material.</German>
+      <Russian>350ml спрей c белой краской для любого материала.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_68">
+      <Original>Hatchback Stensils</Original>
+      <English>Hatchback Stensils</English>
+      <German>Hatchback Schablonen</German>
+      <Russian>Хэтчбек Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_68">
+      <Original>Hatchback yellow race skin. You need: 1 red spray can, 1 black spray can, 3 yellow spray can.</Original>
+      <English>Hatchback yellow race skin. You need: 1 red spray can, 1 black spray can, 3 yellow spray can.</English>
+      <German>Hatchback gelbe Rasse Haut. Sie müssen: 1 Rot Spraydosen, 1 schwarz Spraydosen, 3 gelbe Spraydose.</German>
+      <Russian>Жёлтый гоночный Хэтчбек. Вам нужно: 1 красный спрей, 1 чёрный спрей, 3 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_69">
+      <Original>Pickup Stensils</Original>
+      <English>Pickup Stensils</English>
+      <German>Pickup Schablonen</German>
+      <Russian>Пикап Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_69">
+      <Original>Pickup Grim Reaper skin. You need: 4 black spray can, 1 white spray can, 1 yellow spray can, 1 red spray can.</Original>
+      <English>Pickup Grim Reaper skin. You need: 4 black spray can, 1 white spray can, 1 yellow spray can, 1 red spray can.</English>
+      <German>Pickup Sensenmann Haut. Sie müssen: 4 schwarze Spraydose, 1 weiße Spraydose, 1 gelbe Spraydose, 1 rote Spraydose.</German>
+      <Russian>Пикап Жнец. Вам нужно: 4 чёрных спреев, 1 белый спрей, 1 жёлтый спрей, 1 красный спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_70">
+      <Original>Pickup Stensils</Original>
+      <English>Pickup Stensils</English>
+      <German>Pickup Schablonen</German>
+      <Russian>Пикап Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_70">
+      <Original>Pickup Southern. You need: 4 red spray can, 1 blue spray can, 1 white spray can.</Original>
+      <English>Pickup Southern. You need: 4 red spray can, 1 blue spray can, 1 white spray can.</English>
+      <German>Pickup südlichen. Sie müssen: 4 rote Spraydose, 1 blau Spraydose, 1 weiße Spraydose.</German>
+      <Russian>Пикап Южный. Вам нужно: 4 красных спрея, 1 синий спрей, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_71">
+      <Original>Pickup Stensils</Original>
+      <English>Pickup Stensils</English>
+      <German>Pickup Schablonen</German>
+      <Russian>Пикап Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_71">
+      <Original>Pickup Superman. You need: 4 blue spray can, 1 red spray can, 1 yellow spray can.</Original>
+      <English>Pickup Superman. You need: 4 blue spray can, 1 red spray can, 1 yellow spray can.</English>
+      <German>Pickup Superman. Sie müssen: 4 blau Spraydose, 1 rote Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Пикап Супермен. Вам нужно: 4 синих спрея, 1 красный спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_72">
+      <Original>Hilux Stensils</Original>
+      <English>Hilux Stensils</English>
+      <German>Hilux Schablonen</German>
+      <Russian>Хилюкс Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_72">
+      <Original>Hilux Canada. You need: 2 white spray can, 3 red spray can.</Original>
+      <English>Hilux Canada. You need: 2 white spray can, 3 red spray can.</English>
+      <German>Hilux Canada. Sie müssen: 2 weiße Spraydose, 3 rote Spraydose.</German>
+      <Russian>Хилюкс Канада. Вам нужно: 2 белых спрея, 3 красных спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_73">
+      <Original>Hilux Stensils</Original>
+      <English>Hilux Stensils</English>
+      <German>Hilux Schablonen</German>
+      <Russian>Хилюкс Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_73">
+      <Original>Hilux USA. You need: 2 white spray can, 1 red spray can, 3 blue spray can.</Original>
+      <English>Hilux USA. You need: 2 white spray can, 1 red spray can, 3 blue spray can.</English>
+      <German>Hilux USA. Sie müssen: 2 weiße Spraydose, 1 rote Spraydose, 3 blau Spraydose.</German>
+      <Russian>Хилюкс США. Вам нужно: 2 белых спрея, 1 красный спрей, 3 синих спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_74">
+      <Original>Hilux Stensils</Original>
+      <English>Hilux Stensils</English>
+      <German>Hilux Schablonen</German>
+      <Russian>Хилюкс Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_74">
+      <Original>Hilux Racing car. You need: 1 red spray can, 1 black spray can, 3 yellow spray can.</Original>
+      <English>Hilux Racing car. You need: 1 red spray can, 1 black spray can, 3 yellow spray can.</English>
+      <German>Hilux Rennwagen. Sie müssen: 1 rote Spraydose, 1 schwarze Spraydose, 3 gelb Spraydose.</German>
+      <Russian>Хилюкс Гоночная. Вам нужно: 1 красный спрей, 1 чёрный спрея, 3 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_75">
+      <Original>Lada Stensils</Original>
+      <English>Lada Stensils</English>
+      <German>Lada Schablonen</German>
+      <Russian>Лада Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_75">
+      <Original>Lada USSR Racing car. You need: 4 red spray can, 1 white spray can, 1 yellow spray can.</Original>
+      <English>Lada USSR Racing car. You need: 4 red spray can, 1 white spray can, 1 yellow spray can.</English>
+      <German>Lada USSR Rennwagen. Sie müssen: 4 rote Spraydose, 1 weiße Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Лада СССР спорт. Вам нужно: 4 красных спрея, 1 белый спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_76">
+      <Original>LandRover Stensils</Original>
+      <English>LandRover Stensils</English>
+      <German>LandRover Schablonen</German>
+      <Russian>ЛендРовер Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_76">
+      <Original>LandRover Dora. You need: 3 yellow, 1 red, 1 blue, 1 green, 1 pink, 1 black spray cans.</Original>
+      <English>LandRover Dora. You need: 3 yellow, 1 red, 1 blue, 1 green, 1 pink, 1 black spray cans.</English>
+      <German>LandRover Dora. Sie müssen: 3 gelb, 1 red, 1 blau, 1 grün, 1 rosa, 1 schwarze Spraydoses.</German>
+      <Russian>ЛендРовер Дора. Вам нужно: 3 жёлтых, 1 красный, 1 синий, 1 зелёный, 1 розовый, 1 чёрный спреев.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_77">
+      <Original>LandRover Stensils</Original>
+      <English>LandRover Stensils</English>
+      <German>LandRover Schablonen</German>
+      <Russian>ЛендРовер Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_77">
+      <Original>LandRover Australia. You need: 1 red spray can, 2 white spray can, 4 blue spray can.</Original>
+      <English>LandRover Australia. You need: 1 red spray can, 2 white spray can, 4 blue spray can.</English>
+      <German>LandRover Australien. Sie müssen: 1 rote Spraydose, 2 weiße Spraydose, 4 blau Spraydose.</German>
+      <Russian>ЛендРовер Австралия. Вам нужно: 1 красный спрей, 2 белых спрея, 4 синих спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_78">
+      <Original>LandRover Stensils</Original>
+      <English>LandRover Stensils</English>
+      <German>LandRover Schablonen</German>
+      <Russian>ЛендРовер Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_78">
+      <Original>LandRover German. You need: 2 black spray can, 2 red spray can, 2 yellow spray can, 1 white spray can.</Original>
+      <English>LandRover German. You need: 2 black spray can, 2 red spray can, 2 yellow spray can, 1 white spray can.</English>
+      <German>LandRover Deutsch. Sie müssen: 2 schwarze Spraydose, 2 rote Spraydose, 2 gelb Spraydose, 1 weiße Spraydose.</German>
+      <Russian>ЛендРовер Германия. Вам нужно: 2 чёрных спрея, 2 красных спрея, 2 жёлтых срея, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_79">
+      <Original>Old moto Stensils</Original>
+      <English>Old moto Stensils</English>
+      <German>Old moto Schablonen</German>
+      <Russian>Мото. Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_79">
+      <Original>Old moto USA. You need: 1 red spray can, 1 white spray can, 1 blue spray can.</Original>
+      <English>Old moto USA. You need: 1 red spray can, 1 white spray can, 1 blue spray can.</English>
+      <German>Old moto USA. Sie müssen: 1 rote Spraydose, 1 weiße Spraydose, 1 blau Spraydose.</German>
+      <Russian>Старый мото США. Вам нужно: 1 чёрный спрей, 1 красный спрей, 1 синий спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_80">
+      <Original>Old moto Stensils</Original>
+      <English>Old moto Stensils</English>
+      <German>Old moto Schablonen</German>
+      <Russian>Мото. Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_80">
+      <Original>Old moto Pirate. You need: 1 white spray can, 1 black spray can.</Original>
+      <English>Old moto Pirate. You need: 1 white spray can, 1 black spray can.</English>
+      <German>Old moto Pirate. Sie müssen: 1 weiße Spraydose, 1 schwarze Spraydose.</German>
+      <Russian>Старый мото Пират. Вам нужно: 1 белый спрей, 1 чёрный спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_81">
+      <Original>Lada2105 Stensils</Original>
+      <English>Lada2105 Stensils</English>
+      <German>Lada2105 Schablonen</German>
+      <Russian>Лада2105 Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_81">
+      <Original>Lada2105 Rasta. You need: 2 red spray can, 2 green spray can, 2 yellow spray can, 1 black spray can.</Original>
+      <English>Lada2105 Rasta. You need: 2 red spray can, 2 green spray can, 2 yellow spray can, 1 black spray can.</English>
+      <German>Lada2105 Rasta. Sie müssen: 2 rote Spraydose, 2 grün Spraydose, 2 gelb Spraydose, 1 schwarze Spraydose.</German>
+      <Russian>Лада2105 Раста. Вам нужно: 2 красных спрея, 2 зелёных спрея, 2 жёлтых спрея, 1 чёрный спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_82">
+      <Original>Volvo Stensils</Original>
+      <English>Volvo Stensils</English>
+      <German>Volvo Schablonen</German>
+      <Russian>Вольво Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_82">
+      <Original>Volvo truck Girl. You need: 2 red spray can, 2 black spray can, 1 yellow spray can.</Original>
+      <English>Volvo truck Girl. You need: 2 red spray can, 2 black spray can, 1 yellow spray can.</English>
+      <German>Volvo LKW Mädchen. Sie müssen: 2 rote Spraydose, 2 schwarze Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Вольво Девица. Вам нужно: 2 красных спрея, 2 чёрных спрея, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_83">
+      <Original>Volvo Stensils</Original>
+      <English>Volvo Stensils</English>
+      <German>Volvo Schablonen</German>
+      <Russian>Вольво Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_83">
+      <Original>Volvo truck Graffiti. You need: 2 red spray can, 2 green spray can, 1 black spray can, 1 yellow spray can.</Original>
+      <English>Volvo truck Graffiti. You need: 2 red spray can, 2 green spray can, 1 black spray can, 1 yellow spray can.</English>
+      <German>Volvo LKW Graffiti. Sie müssen: 2 rote Spraydose, 2 grün Spraydose, 1 schwarze Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Вольво Граффити. Вам нужно: 2 красных спрея, 2 зелёных спрея, 1 чёрный спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_84">
+      <Original>S1203 Stensils</Original>
+      <English>S1203 Stensils</English>
+      <German>S1203 Schablonen</German>
+      <Russian>S1203 Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_84">
+      <Original>S1203 Iron Maiden. You need: 4 black spray can, 1 red spray can, 1 white spray can, 1 yellow spray can.</Original>
+      <English>S1203 Iron Maiden. You need: 4 black spray can, 1 red spray can, 1 white spray can, 1 yellow spray can.</English>
+      <German>S1203 Iron Maiden. Sie müssen: 4 schwarze Spraydose, 1 rote Spraydose, 1 weiße Spraydose, 1 gelb Spraydose.</German>
+      <Russian>S1203 Iron Maiden. Вам нужно: 4 чёрных спрея, 1 красный спрей, 1 белый спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_85">
+      <Original>S1203 Stensils</Original>
+      <English>S1203 Stensils</English>
+      <German>S1203 Schablonen</German>
+      <Russian>S1203 Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_85">
+      <Original>S1203 USA. You need: 2 white spray can, 1 red spray can, 3 blue spray can.</Original>
+      <English>S1203 USA. You need: 2 white spray can, 1 red spray can, 3 blue spray can.</English>
+      <German>S1203 USA. Sie müssen: 2 weiße Spraydose, 1 rote Spraydose, 3 blau Spraydose.</German>
+      <Russian>S1203 США. Вам нужно: 2 белых спрея, 1 красный спрей, 3 синих спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_86">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_86">
+      <Original>SUV Pirate. You need: 5 black spray can, 1 white spray can.</Original>
+      <English>SUV Pirate. You need: 5 black spray can, 1 white spray can.</English>
+      <German>SUV Pirate. Sie müssen: 5 schwarze Spraydose, 1 weiße Spraydose.</German>
+      <Russian>SUV Пираты. Вам нужно: 5 чёрных спреев, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_87">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_87">
+      <Original>SUV USA. You need: 4 blue spray can, 1 white spray can, 1 red spray can.</Original>
+      <English>SUV USA. You need: 4 blue spray can, 1 white spray can, 1 red spray can.</English>
+      <German>SUV USA. Sie müssen: 4 blau Spraydose, 1 weiße Spraydose, 1 rote Spraydose.</German>
+      <Russian>SUV США. Вам нужно: 4 синих спрея, 1 белый спрей, 1 красный спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_88">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_88">
+      <Original>SUV Blue indigo. You need: 2 blue spray can, 4 black spray can.</Original>
+      <English>SUV Blue indigo. You need: 2 blue spray can, 4 black spray can.</English>
+      <German>SUV Blau indigo. Sie müssen: 2 blau Spraydose, 4 schwarze Spraydose.</German>
+      <Russian>SUV Синий Индиго. Вам нужно: 2 синих спрея, 4 чёрных спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_89">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_89">
+      <Original>SUV Marijuana. You need: 6 green spray can.</Original>
+      <English>SUV Marijuana. You need: 6 green spray can.</English>
+      <German>SUV Marijuana. Sie müssen: 6 grün Spraydose.</German>
+      <Russian>SUV Марихуана. Вам нужно: 6 залёных спреев.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_90">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_90">
+      <Original>SUV Fire. You need: 4 red spray can, 2 yellow spray can.</Original>
+      <English>SUV Fire. You need: 4 red spray can, 2 yellow spray can.</English>
+      <German>SUV Fire. Sie müssen: 4 rote Spraydose, 2 gelb Spraydose.</German>
+      <Russian>SUV Огненный. Вам нужно: 4 красных спрея, 2 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_91">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_91">
+      <Original>SUV Blue flame. You need: 6 blue spray can.</Original>
+      <English>SUV Blue flame. You need: 6 blue spray can.</English>
+      <German>SUV Blaue Flamme. Sie müssen: 6 blau Spraydose.</German>
+      <Russian>SUV Голубое пламя. Вам нужно: 6 голубых спреев.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_92">
+      <Original>SUV Stensils</Original>
+      <English>SUV Stensils</English>
+      <German>SUV Schablonen</German>
+      <Russian>SUV Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_92">
+      <Original>SUV Flowers. You need: 5 pink spray can, 1 white spray can.</Original>
+      <English>SUV Flowers. You need: 5 pink spray can, 1 white spray can.</English>
+      <German>SUV Blumen. Sie müssen: 5 rosa Spraydose, 1 weiße Spraydose.</German>
+      <Russian>SUV Цветочный. Вам нужно: 5 розовых спреeв, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_93">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_93">
+      <Original>Ural Black flames. You need: 4 black spray can, 2 yellow spray can.</Original>
+      <English>Ural Black flames. You need: 4 black spray can, 2 yellow spray can.</English>
+      <German>Ural schwarzen Flammen. Sie müssen: 4 schwarze Spraydose, 2 gelb Spraydose.</German>
+      <Russian>Урал Чёрное пламя. Вам нужно: 4 чёрных спрея, 2 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_94">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_94">
+      <Original>Ural Marijuana(rear). You need: 1 red spray can, 1 yellow spray can, 2 green spray can, 1 blue spray can.</Original>
+      <English>Ural Marijuana(rear). You need: 1 red spray can, 1 yellow spray can, 2 green spray can, 1 blue spray can.</English>
+      <German>Ural Marihuana(hintern). Sie müssen: 1 rote Spraydose, 1 gelb Spraydose, 2 grün Spraydose, 1 blau Spraydose.</German>
+      <Russian>Урал Марихуана(кузов). Вам нужно: 1 красный спрей, 1 жёлтый спрей, 2 зелёных спрея, 1 синий спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_95">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_95">
+      <Original>Ural Red flames. You need: 4 red spray can, 2 yellow spray can.</Original>
+      <English>Ural Red flames. You need: 4 red spray can, 2 yellow spray can.</English>
+      <German>Ural roten Flammen. Sie müssen: 4 rote Spraydose, 2 gelb Spraydose.</German>
+      <Russian>Урал Красное пламя. Вам нужно: 4 красных спрея, 2 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_96">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_96">
+      <Original>Ural Pirate(rear). You need: 1 white spray can, 5 black spray can.</Original>
+      <English>Ural Pirate(rear). You need: 1 white spray can, 5 black spray can.</English>
+      <German>Ural Pirate(hintern). Sie müssen: 1 weiße Spraydose, 5 schwarze Spraydose.</German>
+      <Russian>Урал Пираты(кузов). Вам нужно: 1 белый спрея, 5 чёрных спреев.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_97">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_97">
+      <Original>Ural USA. You need: 2 white can, 1 red spray can, 3 blue spray can.</Original>
+      <English>Ural USA. You need: 2 white can, 1 red spray can, 3 blue spray can.</English>
+      <German>Ural USA. Sie müssen: 2 weiße Spraydose, 1 rote Spraydose, 3 blau Spraydose.</German>
+      <Russian>Урал США. Вам нужно: 2 белых спрея, 1 красный спрей, 3 синих спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_98">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_98">
+      <Original>Ural Russian. You need: 1 white spray can, 2 red spray can, 1 blue spray can, 1 black spray can, 1 yellow spray can.</Original>
+      <English>Ural Russian. You need: 1 white spray can, 2 red spray can, 1 blue spray can, 1 black spray can, 1 yellow spray can.</English>
+      <German>Ural Russisch. Sie müssen: 1 weiße Spraydose, 2 rote Spraydose, 1 blau Spraydose, 1 schwarze Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Урал Россия. Вам нужно: 1 белый спрей, 2 красных спрея, 1 синий спрей, 1 чёрный спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_99">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_99">
+      <Original>Ural Jamaica. You need: 2 red spray can, 2 yellow spray can, 2 green spray can, 1 black spray can.</Original>
+      <English>Ural Jamaica. You need: 2 red spray can, 2 yellow spray can, 2 green spray can, 1 black spray can.</English>
+      <German>Ural Jamaica. Sie müssen: 2 rote Spraydose, 2 gelb Spraydose, 2 grün Spraydose, 1 schwarze Spraydose.</German>
+      <Russian>Урал Ямайка. Вам нужно: 2 красных спрея, 2 жёлтых спрея, 2 зелёных спрея, 1 чёрный спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_100">
+      <Original>Ural Stensils</Original>
+      <English>Ural Stensils</English>
+      <German>Ural Schablonen</German>
+      <Russian>Урал Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_100">
+      <Original>Ural Pirate. You need: 5 black spray can, 1 white spray can.</Original>
+      <English>Ural Pirate. You need: 5 black spray can, 1 white spray can.</English>
+      <German>Ural Pirate. Sie müssen: 5 schwarze Spraydose, 1 weiße Spraydose.</German>
+      <Russian>Урал Пират. Вам нужно: 5 чёрных спреев, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_101">
+      <Original>V3S Stensils</Original>
+      <English>V3S Stensils</English>
+      <German>V3S Schablonen</German>
+      <Russian>V3S Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_101">
+      <Original>V3S Pirate. You need: 5 black spray can, 1 white spray can.</Original>
+      <English>V3S Pirate. You need: 5 black spray can, 1 white spray can.</English>
+      <German>V3S Pirate. Sie müssen: 5 schwarze Spraydose, 1 weiße Spraydose.</German>
+      <Russian>V3S Пират. Вам нужно: 5 чёрных спреев, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_102">
+      <Original>Volga Stensils</Original>
+      <English>Volga Stensils</English>
+      <German>Volga Schablonen</German>
+      <Russian>Волга Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_102">
+      <Original>Volga Novistrana racing. You need: 1 green spray can, 1 black spray can, 2 yellow spray can, 2 red spray can, 1 white spray can.</Original>
+      <English>Volga Novistrana racing. You need: 1 green spray can, 1 black spray can, 2 yellow spray can, 2 red spray can, 1 white spray can.</English>
+      <German>Volga Novistrana racing. Sie müssen: 1 grün Spraydose, 1 schwarze Spraydose, 2 gelb Spraydose, 2 rote Spraydose, 1 weiße Spraydose.</German>
+      <Russian>Волга Новистрана. Вам нужно: 1 залёный спрей, 1 чёрный спрей, 2 жёлтых спрея, 2 красных спрея, 1 белый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_103">
+      <Original>Volga Stensils</Original>
+      <English>Volga Stensils</English>
+      <German>Volga Schablonen</German>
+      <Russian>Волга Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_103">
+      <Original>Volga East German. You need: 3 white spray can, 1 black spray can, 1 red spray can, 1 yellow spray can.</Original>
+      <English>Volga East German. You need: 3 white spray can, 1 black spray can, 1 red spray can, 1 yellow spray can.</English>
+      <German>Volga DDR. Sie müssen: 3 weiße Spraydose, 1 schwarze Spraydose, 1 rote Spraydose, 1 gelb Spraydose.</German>
+      <Russian>Волга Восточная Германия. Вам нужно: 3 белых спрея, 1 чёрный спрей, 1 красный спрей, 1 жёлтый спрей.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_104">
+      <Original>VWGolf Stensils</Original>
+      <English>VWGolf Stensils</English>
+      <German>VWGolf Schablonen</German>
+      <Russian>Гольф Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_104">
+      <Original>VWGolf Yellow flames. You need: 3 red spray can, 3 yellow spray can.</Original>
+      <English>VWGolf Yellow flames. You need: 3 red spray can, 3 yellow spray can.</English>
+      <German>VWGolf Gelbe Flammen. Sie müssen: 3 rote Spraydose, 3 gelb Spraydose.</German>
+      <Russian>Гольф Жёлтое пламя. Вам нужно: 3 красных спрея, 3 жёлтых спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_105">
+      <Original>VWGolf Stensils</Original>
+      <English>VWGolf Stensils</English>
+      <German>VWGolf Schablonen</German>
+      <Russian>Гольф Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_105">
+      <Original>VWGolf Blue flames. You need: 3 blue spray can, 3 black spray can.</Original>
+      <English>VWGolf Blue flames. You need: 3 blue spray can, 3 black spray can.</English>
+      <German>VWGolf Blaue Flammen. Sie müssen: 3 blau Spraydose, 3 schwarze Spraydose.</German>
+      <Russian>Гольф Синее пламя. Вам нужно: 3 синих спрея, 3 чёрных спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_106">
+      <Original>VWGolf Stensils</Original>
+      <English>VWGolf Stensils</English>
+      <German>VWGolf Schablonen</German>
+      <Russian>Гольф Трафареты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_106">
+      <Original>VWGolf Green flames. You need: 3 green spray can, 3 black spray can.</Original>
+      <English>VWGolf Green flames. You need: 3 green spray can, 3 black spray can.</English>
+      <German>VWGolf grünen Flammen. Sie müssen: 3 grün Spraydose, 3 schwarze Spraydose.</German>
+      <Russian>Гольф Зелёное пламя. Вам нужно: 3 залёных спрея, 3 чёрных спрея.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_107">
+      <Original>Snow Ghillie Suit</Original>
+      <English>Snow Ghillie Suit</English>
+      <German>Schnee Ghillie Suit</German>
+      <Russian>Снежный маск.костюм</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_107">
+      <Original>A type of camouflage clothing white color. Can be unpacked and worn.</Original>
+      <English>A type of camouflage clothing white color. Can be unpacked and worn.</English>
+      <German>Eine Art von Tarnkleidung weiße Farbe. Nun dient er den verbliebenden Überlebenden.</German>
+      <Russian>Одежда снайперов белого цвета. Может быть распакована и надета.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_108">
+      <Original>Urban Ghillie Suit</Original>
+      <English>Urban Ghillie Suit</English>
+      <German>Stadt Ghillie Suit</German>
+      <Russian>Город маск.костюм</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_108">
+      <Original>A type of camouflage clothing urban color. Can be unpacked and worn.</Original>
+      <English>A type of camouflage clothing urban color. Can be unpacked and worn.</English>
+      <German>Eine Art von Tarnkleidung Stadt Farbe. Nun dient er den verbliebenden Überlebenden.</German>
+      <Russian>Одежда снайперов Городской раскраски. Может быть распакована и надета.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_109">
+      <Original>Wood Ghillie Suit</Original>
+      <English>Wood Ghillie Suit</English>
+      <German>Holz Ghillie Suit</German>
+      <Russian>Лес маск.костюм</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_109">
+      <Original>A type of camouflage clothing wood color. Can be unpacked and worn.</Original>
+      <English>A type of camouflage clothing wood color. Can be unpacked and worn.</English>
+      <German>Eine Art von Tarnkleidung Holzfarbe. Nun dient er den verbliebenden Überlebenden.</German>
+      <Russian>Одежда снайперов Древесной раскраски. Может быть распакована и надета.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_110">
+      <Original>Short Planks</Original>
+      <English>Short Planks</English>
+      <German>Kurzen Planks</German>
+      <Russian>Короткие доски</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_110">
+      <Original>Short planks is a very common building material.</Original>
+      <English>Short planks is a very common building material.</English>
+      <German>Kurze Planken ist eine sehr häufige Baustoff.</German>
+      <Russian>Короткие доски очень распространенный строительный материал.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_111">
+      <Original>Long Planks</Original>
+      <English>Long Planks</English>
+      <German>lange Planks</German>
+      <Russian>Длинные доски</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_111">
+      <Original>Long planks are a very valuable building material.</Original>
+      <English>Long planks are a very valuable building material.</English>
+      <German>Lange Dielen sind ein sehr wertvolles Baumaterial.</German>
+      <Russian>Длинные доски очень ценный строительный материал.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_112">
+      <Original>Scrap connector</Original>
+      <English>Scrap connector</English>
+      <German>scrap-Anschluss</German>
+      <Russian>Старый крепёж</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_112">
+      <Original>A homemade, reinforced tool used to hold prices of metal or wood together.</Original>
+      <English>A homemade, reinforced tool used to hold prices of metal or wood together.</English>
+      <German>Eine hausgemachte, verstärkte Werkzeug benutzt, um die Preise aus Metall oder Holz zusammen zu halten.</German>
+      <Russian>Самодельное крепёжное изделие, используемое для соединения металла или дерева.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_113">
+      <Original>Aluminium sheets</Original>
+      <English>Aluminium sheets</English>
+      <German>Aluminiumbleche</German>
+      <Russian>Лист алюминия</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_113">
+      <Original>Sheets of old aluminium</Original>
+      <English>Sheets of old aluminium</English>
+      <German>Platten aus alten Aluminium</German>
+      <Russian>Листы старого алюминия используется для обшивки самолётов и строений.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_114">
+      <Original>Сhipboard</Original>
+      <English>Сhipboard</English>
+      <German>Spanplatten</German>
+      <Russian>Лист ДСП</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_114">
+      <Original>This is a material used for constructing furniture and for panelling buildings.</Original>
+      <English>This is a material used for constructing furniture and for panelling buildings.</English>
+      <German>Dies ist ein für den Bau von Möbel und Verkleidungen für Gebäude verwendeten Material.</German>
+      <Russian>Используется для создания мебели и при обшивке зданий.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_115">
+      <Original>Metal supports</Original>
+      <English>Metal supports</English>
+      <German>Metallstützen</German>
+      <Russian>Метал. опоры</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_115">
+      <Original>Metal supports, used to support the weight of large buildings.</Original>
+      <English>Metal supports, used to support the weight of large buildings.</English>
+      <German>Metallträger, verwendet, um das Gewicht von großen Gebäuden zu unterstützen.</German>
+      <Russian>Металлические опоры могут выдержать вес больших зданий.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_116">
+      <Original>Light Bulb</Original>
+      <English>Light Bulb</English>
+      <German>Glühlampe</German>
+      <Russian>Лампочка</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_116">
+      <Original>Invented by Thomas Alva Edison in 1879, the light bulb has been used to light up the planet at night ever since.</Original>
+      <English>Invented by Thomas Alva Edison in 1879, the light bulb has been used to light up the planet at night ever since.</English>
+      <German>Von Thomas Alva Edison 1879 erfunden, hat die Glühbirne verwendet worden, um seitdem in der Nacht leuchten die Planeten.</German>
+      <Russian>Изобретенная Томасом Алва Эдисоном в 1879 году, лампочка была использована, чтобы осветить планету ночью.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_117">
+      <Original>Screws</Original>
+      <English>Screws</English>
+      <German>Schrauben</German>
+      <Russian>Болты</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_117">
+      <Original>A box of 20 old iron screws, once produced at the Byelov plant.</Original>
+      <English>A box of 20 old iron screws, once produced at the Byelov plant.</English>
+      <German>Eine Schachtel mit 20 alten Eisenschrauben, einmal an der Byelov Pflanze hergestellt.</German>
+      <Russian>Коробка из 20 старых железных винтов, когда-то производились на заводе в Белове.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_118">
+      <Original>Police vest</Original>
+      <English>Police vest</English>
+      <German>Polizei-Weste</German>
+      <Russian>Полицейский жилет</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_118">
+      <Original>Standard issue Taviana police force vest, supports up to 4 kevlar plates.</Original>
+      <English>Standard issue Taviana police force vest, supports up to 4 kevlar plates.</English>
+      <German>Standard-Ausgabe Taviana Polizei Weste, unterstützt bis zu 4 Kevlar-Platten.</German>
+      <Russian>Стандартный жилет полиции Тавианы, вмещает 4 кевларовые пластины.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_119">
+      <Original>Military vest</Original>
+      <English>Military vest</English>
+      <German>Military-Weste</German>
+      <Russian>Военный жилет</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_119">
+      <Original>Standard issue Taviana military vest, supports up to 4 steel plates.</Original>
+      <English>Standard issue Taviana military vest, supports up to 4 steel plates.</English>
+      <German>Standard-Ausgabe Taviana Militärweste , unterstützt bis zu 4 Stahlplatten.</German>
+      <Russian>Стандартный жилет военных Тавианы, вмещает 4 стальные пластины.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_120">
+      <Original>Special forces vest</Original>
+      <English>Special forces vest</English>
+      <German>Besondere Kräfte Weste</German>
+      <Russian>Жилет Спецназа</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_120">
+      <Original>Custom Taviana military special forces vest, supports up to 4 ceramic plates.</Original>
+      <English>Custom Taviana military special forces vest, supports up to 4 ceramic plates.</English>
+      <German>Benutzerdefinierte Taviana militärischen Spezialeinheiten Weste, unterstützt bis zu 4 Keramikplatten.</German>
+      <Russian>Уникальный жилет спецподразделения Тавианы, вмещает 4 кермет пластины.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_121">
+      <Original>PDA Electronica</Original>
+      <English>PDA Electronica</English>
+      <German>PDA Electronica</German>
+      <Russian>КПК Электроника</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_121">
+      <Original>Experimental PDA produced at the secret Saturn plant.</Original>
+      <English>Experimental PDA produced at the secret Saturn plant.</English>
+      <German>Benutzerdefinierte Taviana militärischen Spezialeinheiten kugelsichere Weste, unterstützt bis zu 4 Cermet-Platten.</German>
+      <Russian>Экспериментальный КПК произведён на секретном заводе Сатурн.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_122">
+      <Original>Kevlar plate</Original>
+      <English>Kevlar plate</English>
+      <German>Kevlar Platte</German>
+      <Russian>Пластина из кевлара</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_122">
+      <Original>Provides level 1 damage suppression against common weapons.</Original>
+      <English>Provides level 1 damage suppression against common weapons.</English>
+      <German>Bietet Ebene 1 Schadens Unterdrückung gegen gemeinsame Waffen.</German>
+      <Russian>Класс 1. Слабое снижение повреждений от распространенных видов оружия.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_123">
+      <Original>Steel plate</Original>
+      <English>Steel plate</English>
+      <German>Stahlblech</German>
+      <Russian>Cтальная пластина</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_123">
+      <Original>Provides level 2 damage suppression against common weapons.</Original>
+      <English>Provides level 2 damage suppression against common weapons.</English>
+      <German>Bietet Ebene 2 Schadens Unterdrückung gegen gemeinsame Waffen.</German>
+      <Russian>Класс 2. Среднее снижение повреждений от распространенных видов оружия.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_124">
+      <Original>Cermet plate</Original>
+      <English>Cermet plate</English>
+      <German>Cermet Platte</German>
+      <Russian>Кермет пластина</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_124">
+      <Original>Provides level 3 damage suppression against common and special weapons.</Original>
+      <English>Provides level 3 damage suppression against common and special weapons.</English>
+      <German>Bietet Ebene 3 Schadens Unterdrückung gegen gemeinsame und spezielle Waffen.</German>
+      <Russian>Класс 3. Эффективное снижение повреждений от распространенных видов оружия.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_125">
+      <Original>Medical kit</Original>
+      <English>Medical kit</English>
+      <German>Medical Kit</German>
+      <Russian>Мед. комплект</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_125">
+      <Original>Standard issue Soviet military medical kit containing standard medical equipment.</Original>
+      <English>Standard issue Soviet military medical kit containing standard medical equipment.</English>
+      <German>Standard-Ausgabe sowjetischen militärischen medizinischen Set mit Standard-medizinischen Geräten.</German>
+      <Russian>Стандартная советская военная медицинская аптечка, содержащая основное медицинское оборудование.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_126">
+      <Original>Zombie liver</Original>
+      <English>Zombie liver</English>
+      <German>Zombie Leber</German>
+      <Russian>Печень зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_126">
+      <Original>A zombie liver.</Original>
+      <English>A zombie liver.</English>
+      <German>Ein Zombie Leber.</German>
+      <Russian>Печень зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_127">
+      <Original>Zombie leg</Original>
+      <English>Zombie leg</English>
+      <German>Zombie-Bein</German>
+      <Russian>Нога зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_127">
+      <Original>An amputated zombie leg.</Original>
+      <English>An amputated zombie leg.</English>
+      <German>Ein Zombie amputiert Bein.</German>
+      <Russian>Ампутированая нога зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_128">
+      <Original>Zombie heart</Original>
+      <English>Zombie heart</English>
+      <German>Zombie Herzen</German>
+      <Russian>Сердце зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_128">
+      <Original>A zombie heart.</Original>
+      <English>A zombie heart.</English>
+      <German>Ein Zombie Herzen.</German>
+      <Russian>Сердце зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_129">
+      <Original>Zombie head</Original>
+      <English>Zombie head</English>
+      <German>Zombie Kopf</German>
+      <Russian>Голова зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_129">
+      <Original>An amputated zombie head.</Original>
+      <English>An amputated zombie head.</English>
+      <German>Ein amputiert Zombie Kopf.</German>
+      <Russian>Ампутированая голова зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_130">
+      <Original>Zombie brain</Original>
+      <English>Zombie brain</English>
+      <German>Zombie-Gehirn</German>
+      <Russian>Мозг зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_130">
+      <Original>A zombie brain.</Original>
+      <English>A zombie brain.</English>
+      <German>Ein Zombie-Gehirn.</German>
+      <Russian>Мозг зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_131">
+      <Original>Zombie arm</Original>
+      <English>Zombie arm</English>
+      <German>Zombie-Arm</German>
+      <Russian>Рука зомби</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_131">
+      <Original>Zombie arm.</Original>
+      <English>Zombie arm.</English>
+      <German>Ein Zombie-Arm.</German>
+      <Russian>Рука зомби.</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_NAME_132">
+      <Original>Secret documents</Original>
+      <English>Secret documents</English>
+      <German>Geheime Dokumente</German>
+      <Russian>Секретные документы</Russian>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_132">
+      <Original>A bunch of secret documents.</Original>
+      <English>A bunch of secret documents.</English>
+      <German>Ein Bündel von geheimen Dokumenten.</German>
+      <Russian>Пачка секретных документов.</Russian>
+    </Key>
+  </Package>
+  <Package name="origins_pack">
+    <Key ID="STR_CEMENT_MIXER_DIS">
+      <Original>Cem.Mixer.(Dis.)</Original>
+      <English>Cem.Mixer.(Dis.)</English>
+      <German>Zem.Mixer.(Dis.)</German>
+      <Russian>Бетмешалка(дет.)</Russian>
+    </Key>
+    <Key ID="STR_CEMENT_MIXER_DIS_DESC">
+      <Original>This can be used to assemble a cement mixer.</Original>
+      <English>This can be used to assemble a cement mixer.</English>
+      <German>Dies kann verwendet werden, um einen Zementmischer zusammenzubauen.</German>
+      <Russian>Можно собрать Бетономешалку для постройки фундамента дома.</Russian>
+    </Key>
+    <Key ID="STR_TAVISAFE">
+      <Original>Old Safe</Original>
+      <English>Old Safe</English>
+      <German>Alte Sicher</German>
+      <Russian>Старый сэйф</Russian>
+    </Key>
+    <Key ID="STR_TAVISAFE_DESC">
+      <Original>A light safe taken from Taviana National Bank building.</Original>
+      <English>A light safe taken from Taviana National Bank building.</English>
+      <German>Ein Licht sicher vor Taviana Nationalbank Gebäude genommen</German>
+      <Russian>Простой сэйф взятый в Национальном банке Тавианы</Russian>
+    </Key>
+    <Key ID="STR_CRANE_DIS">
+      <Original>Crane (Dis.)</Original>
+      <English>Crane (Dis.)</English>
+      <German>Kran (Dis.)</German>
+      <Russian>Лебёдка (дет.)</Russian>
+    </Key>
+    <Key ID="STR_CRANE_DESC">
+      <Original>This can be used to assemble a crane.</Original>
+      <English>This can be used to assemble a crane.</English>
+      <German>Dies kann verwendet werden, um einen Kran zusammenzubauen.</German>
+      <Russian>Можно собрать Лебёдку.</Russian>
+    </Key>
+    <Key ID="STR_BUILD_MIXER">
+      <Original>Build Cem.Mixer</Original>
+      <English>Build Cem.Mixer</English>
+      <German>Baue Zem.Mixer</German>
+      <Russian>Собрать бетономешалку</Russian>
+    </Key>
+    <Key ID="STR_CEMENT_BAG">
+      <Original>Bag of Cement</Original>
+      <English>Bag of Cement</English>
+      <German>Sack Zement</German>
+      <Russian>Мешок цемента</Russian>
+    </Key>
+    <Key ID="STR_CEMENT_BAG_DESC">
+      <Original>Put in cement mixer along with water.</Original>
+      <English>Put in cement mixer along with water.</English>
+      <German>Zusammen mit Wasser in den Zementmischer geben.</German>
+      <Russian>Мешок цемента для строительства домов.</Russian>
+    </Key>
+    <Key ID="STR_ROCKS">
+      <Original>Rocks</Original>
+      <English>Rocks</English>
+      <German>Steine</German>
+      <Russian>Камни</Russian>
+    </Key>
+    <Key ID="STR_HOUSE_MATERIAL">
+      <Original>House building material.</Original>
+      <English>House building material.</English>
+      <German>Haus Baustoff.</German>
+      <Russian>Строительный материал.</Russian>
+    </Key>
+    <Key ID="STR_LIMESTONE">
+      <Original>Limestones</Original>
+      <English>Limestones</English>
+      <German>Kalksteine</German>
+      <Russian>Известняк</Russian>
+    </Key>
+    <Key ID="STR_CINDERBLOCKS">
+      <Original>Cinder Blocks</Original>
+      <English>Cinder Blocks</English>
+      <German>Betonziegel</German>
+      <Russian>Шлакоблоки</Russian>
+    </Key>
+    <Key ID="STR_PICKAXE">
+      <Original>Pickaxe</Original>
+      <English>Pickaxe</English>
+      <German>Spitzhacke</German>
+      <Russian>Кирка</Russian>
+    </Key>
+    <Key ID="STR_PICKAXE_DESC">
+      <Original>Used for acquiring stones.</Original>
+      <English>Used for acquiring stones.</English>
+      <German>Wird für den Abbau von Steinen benötigt.</German>
+      <Russian>Используется для добычи камня на шахтах.</Russian>
+    </Key>
+    <Key ID="STR_PICKAXE_USE">
+      <Original>Use Pickaxe</Original>
+      <English>Use Pickaxe</English>
+      <German>Verwende Spitzhacke</German>
+      <Russian>Использовать кирку</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_DESC">
+      <Original>A drawing with all kinds of measurements. Houses are built according to these blueprints.</Original>
+      <English>A drawing with all kinds of measurements. Houses are built according to these blueprints.</English>
+      <German>Eine Zeichnung mit allen Arten von Messungen. Die Häuser sind nach diesen Plänen gebaut.</German>
+      <Russian>Рисунок со всеми видами измерений. Дома строятся в соответствии с этими чертежами.</Russian>
+    </Key>
+    <Key ID="STR_EBLUEPRINT_DESC">
+      <Original>A drawing with all kinds of measurements. Electronests are built according to these blueprints.</Original>
+      <English>A drawing with all kinds of measurements. Electronests are built according to these blueprints.</English>
+      <German>Eine Zeichnung mit allen Arten von Messungen. Electronests nach diesen Entwürfen gebaut.</German>
+      <Russian>Рисунок со всеми видами измерений. Электро-гнёзда строятся в соответствии с этими чертежами.</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_DESC_K">
+      <Original>A drawing with all kinds of measurements. Strongholds are built according to these blueprints.</Original>
+      <English>A drawing with all kinds of measurements. Strongholds are built according to these blueprints.</English>
+      <German>Eine Zeichnung mit allen Arten von Messungen. Strongholds sind nach diesen Plänen gebaut.</German>
+      <Russian>Чертежи для возведения крепости</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_K1">
+      <Original>Blueprint(Stronghold)</Original>
+      <English>Blueprint(Stronghold)</English>
+      <German>Pläne(Stronghold)</German>
+      <Russian>Чертеж(Крепость)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_WT">
+      <Original>Blueprint(Watchtower)</Original>
+      <English>Blueprint(Watchtower)</English>
+      <German>Pläne(Watchtower)</German>
+      <Russian>Чертеж(Вышка)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_DESC_WT">
+      <Original>A drawing with all kinds of measurements. Watchtower are built according to these blueprints.</Original>
+      <English>A drawing with all kinds of measurements. Watchtower are built according to these blueprints.</English>
+      <German>Eine Zeichnung mit allen Arten von Messungen. Watchtower sind nach diesen Plänen gebaut.</German>
+      <Russian>Чертежи для постройки смотровой вышки</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B1">
+      <Original>Blueprint(Bandit L1)</Original>
+      <English>Blueprint(Bandit L1)</English>
+      <German>Pläne(Banditen L1)</German>
+      <Russian>Чертеж(Бандит L1)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B2">
+      <Original>Blueprint(Bandit L2)</Original>
+      <English>Blueprint(Bandit L2)</English>
+      <German>Pläne(Banditen L2)</German>
+      <Russian>Чертеж(Бандит L2)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B3">
+      <Original>Blueprint(Bandit L3)</Original>
+      <English>Blueprint(Bandit L3)</English>
+      <German>Pläne(Banditen L3)</German>
+      <Russian>Чертеж(Бандита L3)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H1">
+      <Original>Blueprint(Hero L1)</Original>
+      <English>Blueprint(Hero L1)</English>
+      <German>Pläne(Helden L1)</German>
+      <Russian>Чертеж(Герой L1)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H2">
+      <Original>Blueprint(Hero L2)</Original>
+      <English>Blueprint(Hero L2)</English>
+      <German>Pläne(Helden L2)</German>
+      <Russian>Чертеж(Герой L2)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H3">
+      <Original>Blueprint(Hero L3)</Original>
+      <English>Blueprint(Hero L3)</English>
+      <German>Pläne(Helden L3)</German>
+      <Russian>Чертежи(Герой L3)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_GARAGE_S">
+      <Original>Blueprint(Small Garage)</Original>
+      <English>Blueprint(Small Garage)</English>
+      <German>Pläne(kleine Garage)</German>
+      <Russian>Чертежи(Малый Гараж)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_GARAGE_B">
+      <Original>Blueprint(Large Garage)</Original>
+      <English>Blueprint(Large Garage)</English>
+      <German>Pläne(große Garage)</German>
+      <Russian>Чертежи(Большой гараж)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B1E">
+      <Original>Blueprint(E.Bandit L1)</Original>
+      <English>Blueprint(E.Bandit L1)</English>
+      <German>Pläne(E.Banditen L1)</German>
+      <Russian>Чертежи(E.Бандит Л1)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B2E">
+      <Original>Blueprint(E.Bandit L2)</Original>
+      <English>Blueprint(E.Bandit L2)</English>
+      <German>Pläne(E.Banditen L2)</German>
+      <Russian>Чертежи(E.Бандит Л2)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_B3E">
+      <Original>Blueprint(E.Bandit L3)</Original>
+      <English>Blueprint(E.Bandit L3)</English>
+      <German>Pläne(E.Banditen L3)</German>
+      <Russian>Чертежи(E.Бандит Л3)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H1E">
+      <Original>Blueprint(E.Hero L1)</Original>
+      <English>Blueprint(E.Hero L1)</English>
+      <German>Pläne(E.Held L1)</German>
+      <Russian>Чертежи(E.Герой Л1)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H2E">
+      <Original>Blueprint(E.Hero L2)</Original>
+      <English>Blueprint(E.Hero L2)</English>
+      <German>Pläne(E.Held L2)</German>
+      <Russian>Чертежи(E.Герой Л2)</Russian>
+    </Key>
+    <Key ID="STR_BLUEPRINT_H3E">
+      <Original>Blueprint(E.Hero L3)</Original>
+      <English>Blueprint(E.Hero L3)</English>
+      <German>Pläne(E.Held L3)</German>
+      <Russian>Чертежи(E.Герой Л3)</Russian>
+    </Key>
+    <Key ID="STR_BATTERY">
+      <Original>Battery</Original>
+      <English>Battery</English>
+      <German>Batterie</German>
+      <Russian>Батарейка</Russian>
+    </Key>
+    <Key ID="STR_BATTERY_DESC">
+      <Original>4.5 Volt battery "Planeta-1". Can be used to power various appliances.</Original>
+      <English>4.5 Volt battery "Planeta-1". Can be used to power various appliances.</English>
+      <German>4,5-Volt-Batterie "Planeta-1". Kann verwendet werden, um verschiedenen Geräten Strom zu geben.</German>
+      <Russian>4.5В Батарейка "Планета-1". Испльзуется для питания разных эл.техники.</Russian>
+    </Key>
+    <Key ID="STR_CODE_LOCK">
+      <Original>Code Lock</Original>
+      <English>Code Lock</English>
+      <German>Codeschloss</German>
+      <Russian>Кодовый замок</Russian>
+    </Key>
+    <Key ID="STR_CODE_LOCK_DESC">
+      <Original>Hi-Tech electronic lock for locking houses. It appears to have a battery slot.</Original>
+      <English>Hi-Tech electronic lock for locking houses. It appears to have a battery slot.</English>
+      <German>Hightech elektronisches Schloss zum Verriegeln von Häusern. Es scheint einen Batterie-Steckplatz zu haben.</German>
+      <Russian>Кодовый замок для закрытия дома. Нуждается в батарейках для работы.</Russian>
+    </Key>
+    <Key ID="STR_REINFORCEMENT_WOOD">
+      <Original>Reinforcement Wood</Original>
+      <English>Reinforcement Wood</English>
+      <German>Verstärktes Holz</German>
+      <Russian>Усиленная древесина</Russian>
+    </Key>
+    <Key ID="STR_SAW">
+      <Original>Old saw</Original>
+      <English>Old saw</English>
+      <German>Säge</German>
+      <Russian>Старая пила</Russian>
+    </Key>
+    <Key ID="STR_SAW_DESC">
+      <Original>The old saw can be used to make short and long wooden planks.</Original>
+      <English>The old saw can be used to make short and long wooden planks.</English>
+      <German>Die alte Säge kann verwendet werden, um kurz-und langHolzBohlen zu machen.</German>
+      <Russian>Старая пила может пригодится для изготовления коротких и длинных досок.</Russian>
+    </Key>
+    <Key ID="STR_SAW_USE1">
+      <Original>Long planks</Original>
+      <English>Long planks</English>
+      <German>lange Planken</German>
+      <Russian>Длинные доски</Russian>
+    </Key>
+    <Key ID="STR_SAW_USE2">
+      <Original>Short planks</Original>
+      <English>Short planks</English>
+      <German>Kurze Planken</German>
+      <Russian>Короткие доски</Russian>
+    </Key>
+    <Key ID="STR_HAMMER">
+      <Original>Old hammer</Original>
+      <English>Old hammer</English>
+      <German>Alte Hammer</German>
+      <Russian>Старый молоток</Russian>
+    </Key>
+    <Key ID="STR_HAMMER_DESC">
+      <Original>An old hammer can be used to break objects or to nail objects together.</Original>
+      <English>An old hammer can be used to break objects or to nail objects together.</English>
+      <German>Ein alter Hammer verwendet, um Objekte zu brechen oder zu Objekten zusammen nageln werden.</German>
+      <Russian>Старый молоток может быть использован чтобы разбить(смять) предмет или прибить объекты вместе.</Russian>
+    </Key>
+    <Key ID="STR_HAMMER_USE">
+      <Original>Scrap connector</Original>
+      <English>Scrap connector</English>
+      <German>scrap-Anschluss</German>
+      <Russian>Старый крепёж</Russian>
+    </Key>
+    <Key ID="STR_PLIERS">
+      <Original>Old pliers</Original>
+      <English>Old pliers</English>
+      <German>Alte Zangen</German>
+      <Russian>Старые клещи</Russian>
+    </Key>
+    <Key ID="STR_PLIERS_USE">
+      <Original>Metal supports</Original>
+      <English>Metal supports</English>
+      <German>Metallstützen</German>
+      <Russian>Метал. опоры</Russian>
+    </Key>
+    <Key ID="STR_PLIERS_DESC">
+      <Original>Can be used to bend items, tighten screws or tear off pieces of metal/aluminium.</Original>
+      <English>Can be used to bend items, tighten screws or tear off pieces of metal/aluminium.</English>
+      <German>Kann verwendet werden, um Elemente zu biegen, Schrauben festziehen oder reißen Stücke aus Metall / Aluminium werden.</German>
+      <Russian>Можно использовать чтобы согнуть предмет, завинтить шурупы, оторвать кусок металла или алюминия.</Russian>
+    </Key>
+  </Package>
+  <Package name="actions">
+    <Key ID="STR_ACTIONS_WTALKIE">
+      <Original>on/off</Original>
+      <English>on/off</English>
+      <German>on/off</German>
+      <Russian>Вкл./Выкл.</Russian>
+    </Key>
+  </Package>
+</Project>
