@@ -9,15 +9,23 @@ This is gained by fixing some bugs of the current DayZ Epoch version and adding 
 In addition there will be a set of different predefined loottables for every need, vehicle skins and some new features.
 New Features will be for example a plantingsystem and a tuning shop, where you can improve your vehicles.
 
+====================================
+GitHub Collaborators (In order of most commits)
+====================================
+* Legodev - https://github.com/Legodev/
+* KamikazeXeX - https://github.com/KamikazeXeX
+* Smith-a - https://github.com/Smith-a
+
 License Details
 ====================================
-This community addon uses DayZ Origins assets that are from the DayZ Origins mod and all assets are to remain ownership of the originsmod team. http://www.originsmod.info
+This community addon allows to use all important DayZ OriginsMod assets which are not usable in conjunction DayZ Epoch.
+All Dayz Origins Mod assets will not be included and remain in ownership of the Origins Mod team. http://www.originsmod.info
 
-This project is non-profit and the intentions are to enable usage of DayZ Origins content in conjunction with the DayZ Epoch mod.
+This project is non-profit and the intentions are to enable usage of DayZ Origins content in conjunction with the DayZ Epoch mod. It is provided free to use everyone who desires it.
 
-This project is provided free to use to the many DayZ Epoch community members that desire it.
-
-The usage of the assets and files are permitted as per the Bohemia Interactive DayZ License which can be found here. http://www.bistudio.com/community/licenses/dayz-mod-license-share-alike
+Most parts of this addon are self-written while the remaining files are based on the DayZ files of the Origings Mod:
+dayz.pbo, dayz\_anim.pbo, dayz\_code.pbo, dayz\_equip.pbo, dayz\_sfx.pbo, dayz\_weapons.pbo
+These files are licensed under DML-SA license which can be found here: http://www.bistudio.com/community/licenses/dayz-mod-license-share-alike
 
 In which it states as per Section 2 that:
 
