@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="eocs">
+  <Package name="items">
+    <Key ID="STR_EQUIP_NAME_FOLDING_BIKE">
+      <Original>Folding Bike</Original>
+      <English>Folding Bike</English>
+      <German>Klappfahrrad</German>
+    </Key>
+    <Key ID="STR_EQUIP_DESC_FOLDING_BIKE">
+      <Original>Folding Bike</Original>
+      <English>Folding Bike</English>
+      <German>Klappfahrrad</German>
+    </Key>
+  </Package>
+</Project>
