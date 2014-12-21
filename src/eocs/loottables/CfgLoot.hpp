@@ -392,9 +392,9 @@ class CfgLoot {
 		,{"huntingrifle",0.09}
 		,{"M24_des_EP1",0.08}
 		,{"M24",0.07}
-		,{"BAF_LRR_scoped",0.07}
-		,{"M107_DZ",0.05}
-		,{"KSVK_DZE",0.05}
+		//,{"BAF_LRR_scoped",0.07}
+		//,{"M107_DZ",0.05}
+		//,{"KSVK_DZE",0.05}
 		,{"VSS_vintorez",0.04}
 		,{"SCAR_H_LNG_Sniper_SD",0.03}
 		,{"M14_EP1",0.02}
@@ -402,9 +402,9 @@ class CfgLoot {
 	};
 	sniperriflesammo[] = {
 		{"30Rnd_545x39_AKSD",0.18}
-		,{"5Rnd_127x108_KSVK",0.08}
-		,{"5Rnd_86x70_L115A1",0.07}
-		,{"10Rnd_127x99_m107",0.15}
+		//,{"5Rnd_127x108_KSVK",0.08}
+		//,{"5Rnd_86x70_L115A1",0.07}
+		//,{"10Rnd_127x99_m107",0.15}
 		,{"10Rnd_762x54_SVD",0.2}
 		,{"20Rnd_762x51_DMR",0.1}
 		,{"5Rnd_762x51_M24",0.15}
