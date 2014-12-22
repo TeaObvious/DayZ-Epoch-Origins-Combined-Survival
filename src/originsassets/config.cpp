@@ -25,6 +25,7 @@ class CfgAddons
 	};
 };
 #include "configs\CfgMagazines.hpp"
+#include "configs\CfgSounds.hpp"
 #include "configs\CfgVehicles.hpp"
 #include "configs\CfgWeapons.hpp"
 #include "configs\CfgBuildingReceipt.hpp"
