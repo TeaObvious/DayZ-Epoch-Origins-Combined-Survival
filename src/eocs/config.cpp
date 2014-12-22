@@ -26,3 +26,5 @@ class CfgAddons
 };
 #include "configs\CfgMagazines.hpp"
 #include "configs\CfgVehicles.hpp"
+//Snap Defines
+#include "external\snap_build\snappoints.hpp"

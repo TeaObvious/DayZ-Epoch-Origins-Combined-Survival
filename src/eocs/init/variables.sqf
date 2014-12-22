@@ -8,4 +8,9 @@ if (isServer) then {
 				"BCrane", "CementMixer", "TentStorageR"];
 	dayz_allowedObjects = dayz_allowedObjects + DZEOC_allowedObjects;
 };
+
+if(isNil "DZEOCS_AdminBuild") then {
+	DZEOCS_AdminBuild = [];
+};
+
 dayz_updateObjects = dayz_updateObjects + ["Land_A_tent"];
