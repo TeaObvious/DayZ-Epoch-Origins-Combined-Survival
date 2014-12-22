@@ -63,7 +63,7 @@ class Bandit_Level_1_DZEOCS: Bandit_Level_1_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 0)";
-			statement="this animate [""vratka"", 1]; this animate [""dvereJednaA"", 1]";
+			statement="[this,[[""vratka"", 1],[""dvereJednaA"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -72,7 +72,7 @@ class Bandit_Level_1_DZEOCS: Bandit_Level_1_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 1)";
-			statement="this animate [""vratka"", 0]; this animate [""dvereJednaA"", 0]";
+			statement="[this,[[""vratka"", 0],[""dvereJednaA"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -101,7 +101,7 @@ class Bandit_Level_2_DZEOCS: Bandit_Level_2_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 0)";
-			statement="this animate [""vratkaDva"", 1]; this animate [""dvereJedna"", 1]";
+			statement="[this,[[""vratkaDva"", 1],[""dvereJedna"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -110,7 +110,7 @@ class Bandit_Level_2_DZEOCS: Bandit_Level_2_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 1)";
-			statement="this animate [""vratkaDva"", 0]; this animate [""dvereJedna"", 0]";
+			statement="[this,[[""vratkaDva"", 0],[""dvereJedna"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -140,7 +140,7 @@ class Bandit_Level_3_DZEOCS: Bandit_Level_3_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 0)";
-			statement="this animate [""vratkaDva"", 1]; this animate [""vrataGaraz2"", 1]; this animate [""dvereGarazLeve"", 1]; this animate [""dvereGarazPrave"", 1]; this animate [""dvereDvaB"", 1]; this animate [""dvereJedna"", 1]";
+			statement="[this,[[""vratkaDva"", 1],[""vrataGaraz2"", 1],[""dvereGarazLeve"", 1],[""dvereGarazPrave"", 1],[""dvereDvaB"", 1],[""dvereJedna"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -149,7 +149,7 @@ class Bandit_Level_3_DZEOCS: Bandit_Level_3_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 1)";
-			statement="this animate [""vratkaDva"", 0]; this animate [""vrataGaraz2"", 0]; this animate [""dvereGarazLeve"", 0]; this animate [""dvereGarazPrave"", 0]; this animate [""dvereDvaB"", 0]; this animate [""dvereJedna"", 0]";
+			statement="[this,[[""vratkaDva"", 0],[""vrataGaraz2"", 0],[""dvereGarazLeve"", 0],[""dvereGarazPrave"", 0],[""dvereDvaB"", 0],[""dvereJedna"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -178,7 +178,7 @@ class Hero_Level_1_DZEOCS: Hero_Level_1_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 0)";
-			statement="this animate [""vratka"", 1]; this animate [""dvereJednaA"", 1]";
+			statement="[this,[[""vratka"", 1],[""dvereJednaA"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -187,7 +187,7 @@ class Hero_Level_1_DZEOCS: Hero_Level_1_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 1)";
-			statement="this animate [""vratka"", 0]; this animate [""dvereJednaA"", 0]";
+			statement="[this,[[""vratka"", 0],[""dvereJednaA"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -215,7 +215,7 @@ class Hero_Level_2_DZEOCS: Hero_Level_2_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 0)";
-			statement="this animate [""vratkaDva"", 1]; this animate [""dvereJedna"", 1]";
+			statement="[this,[[""vratkaDva"", 1],[""dvereJedna"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -224,7 +224,7 @@ class Hero_Level_2_DZEOCS: Hero_Level_2_DZEOCS_Dummy
 			radius=5;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""vratkaDva"" == 1)";
-			statement="this animate [""vratkaDva"", 0]; this animate [""dvereJedna"", 0]";
+			statement="[this,[[""vratkaDva"", 0],[""dvereJedna"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -253,7 +253,7 @@ class Hero_Level_3_DZEOCS: Hero_Level_3_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 0)";
-			statement="this animate [""vratka"", 1]; this animate [""vrataGaraz"", 1]; this animate [""dvereGarazLeve"", 1]; this animate [""dvereGarazPrave"", 1]; this animate [""dvereDva"", 1]; this animate [""dvereJednaA"", 1]";
+			statement="[this,[[""vratka"", 1],[""vrataGaraz"", 1],[""dvereGarazLeve"", 1],[""dvereGarazPrave"", 1],[""dvereDva"", 1],[""dvereJednaA"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -262,7 +262,7 @@ class Hero_Level_3_DZEOCS: Hero_Level_3_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenDva"" == 0) && (this animationPhase ""vratka"" == 1)";
-			statement="this animate [""vratka"", 0]; this animate [""vrataGaraz"", 0]; this animate [""dvereGarazLeve"", 0]; this animate [""dvereGarazPrave"", 0]; this animate [""dvereDva"", 0]; this animate [""dvereJednaA"", 0]";
+			statement="[this,[[""vratka"", 0],[""vrataGaraz"", 0],[""dvereGarazLeve"", 0],[""dvereGarazPrave"", 0],[""dvereDva"", 0],[""dvereJednaA"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -291,7 +291,7 @@ class SmallGarage_DZEOCS: SmallGarage_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""dvereGarazLeveDva"" == 0) && (this animationPhase ""dvereGarazPraveDva"" == 0)";
-			statement="this animate [""dvereGarazLeveDva"", 1]; this animate [""dvereGarazPraveDva"", 1]";
+			statement="[this,[[""dvereGarazLeveDva"", 1],[""dvereGarazPraveDva"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -300,7 +300,7 @@ class SmallGarage_DZEOCS: SmallGarage_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""dvereGarazLeveDva"" == 1) && (this animationPhase ""dvereGarazPraveDva"" == 1)";
-			statement="this animate [""dvereGarazLeveDva"", 0]; this animate [""dvereGarazPraveDva"", 0]";
+			statement="[this,[[""dvereGarazLeveDva"", 0],[""dvereGarazPraveDva"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -328,7 +328,7 @@ class BigGarage_DZEOCS: BigGarage_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""dvereGarazLeveDva"" == 0) && (this animationPhase ""dvereGarazPraveDva"" == 0)";
-			statement="this animate [""dvereGarazLeveDva"", 1]; this animate [""dvereGarazPraveDva"", 1]";
+			statement="[this,[[""dvereGarazLeveDva"", 1],[""dvereGarazPraveDva"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -337,7 +337,7 @@ class BigGarage_DZEOCS: BigGarage_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenTri"" == 0) && (this animationPhase ""dvereGarazLeveDva"" == 1) && (this animationPhase ""dvereGarazPraveDva"" == 1)";
-			statement="this animate [""dvereGarazLeveDva"", 0]; this animate [""dvereGarazPraveDva"", 0]";
+			statement="[this,[[""dvereGarazLeveDva"", 0],[""dvereGarazPraveDva"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -366,7 +366,7 @@ class Kings_Pyramid_DZEOCS: Kings_Pyramid_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenJeden"" == 0) && (this animationPhase ""dvereJednaC"" == 0)";
-			statement="this animate [""dvereJednaC"", 1]";
+			statement="[this,[[""dvereJednaC"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -375,7 +375,7 @@ class Kings_Pyramid_DZEOCS: Kings_Pyramid_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""stupenJeden"" == 0) && (this animationPhase ""dvereJednaC"" == 1)";
-			statement="this animate [""dvereJednaC"", 0]";
+			statement="[this,[[""dvereJednaC"", 0]]] spawn player_LockUnlock";
 		};
 	};
 };
@@ -404,7 +404,7 @@ class Stronghold_DZEOCS: Stronghold_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""wall_4"" == 0) && (this animationPhase ""vrata"" == 0)";
-			statement="this animate [""vrata"", 1]; this animate [""hridel"", 1]; this animate [""kolo1"", 1]; this animate [""kolo2"", 1]; this animate [""vaha"", 1]; this animate [""dvere1"", 1]";
+			statement="[this,[[""vrata"", 1],[""hridel"", 1],[""kolo1"", 1],[""kolo2"", 1],[""vaha"", 1],[""dvere1"", 1]]] spawn player_LockUnlock";
 		};
 		class lock
 		{
@@ -413,7 +413,7 @@ class Stronghold_DZEOCS: Stronghold_DZEOCS_Dummy
 			radius=8;
 			onlyForPlayer=1;
 			condition="(this animationPhase ""wall_4"" == 0) && (this animationPhase ""vrata"" == 1)";
-			statement="this animate [""vrata"", 0]; this animate [""hridel"", 0]; this animate [""kolo1"", 0]; this animate [""kolo2"", 0]; this animate [""vaha"", 0]; this animate [""dvere1"", 0]";
+			statement="[this,[[""vrata"", 0],[""hridel"", 0],[""kolo1"", 0],[""kolo2"", 0],[""vaha"", 0],[""dvere1"", 0]]] spawn player_LockUnlock";
 		};
 		//["vrata", "hride1", "kolo1", "kolo2", "vaha", "dvere1"]
 	};
