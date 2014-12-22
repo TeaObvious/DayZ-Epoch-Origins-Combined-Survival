@@ -7,7 +7,7 @@ _class = 		_this select 3;
 
 _vector = [];
 _ownerPUID = "";
-if (_worldspaceLength >= 6) then {
+if (count _this >= 6) then {
 _vector = 		_this select 4;
 _ownerPUID = 		_this select 5;
 };
