@@ -9,4 +9,5 @@ if (!isDedicated) then {
 	player_build_blueprint = compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_build_blueprint.sqf";
 	player_upgrade_building = compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_upgrade_building.sqf";
 	player_LockUnlock = compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_LockUnlock.sqf";
+	player_craftItem = compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_craftItem.sqf";
 };
