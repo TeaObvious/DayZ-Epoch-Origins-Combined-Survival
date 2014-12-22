@@ -17,6 +17,23 @@ private ["_helperColor","_objectHelper","_objectHelperDir","_objectHelperPos","_
 if(DZE_ActionInProgress) exitWith { cutText [(localize "str_epoch_player_40") , "PLAIN DOWN"]; };
 DZE_ActionInProgress = true;
 
+//snap vars -- temporary fix for errors so variables.sqf can be skipped
+if (isNil "snapProVariables") then {
+	if (isNil "DZE_snapExtraRange") then {
+		DZE_snapExtraRange = 0;
+	};
+	if (isNil "DZE_checkNearbyRadius") then {
+		DZE_checkNearbyRadius = 30;
+	};
+	s_player_toggleSnap = -1;
+	s_player_toggleSnapSelect = -1;
+	s_player_toggleSnapSelectPoint=[];
+	snapActions = -1;
+	snapGizmos = [];
+	snapGizmosNearby = [];
+	snapProVariables = true; // will skip this statement from now on.
+};
+// snap vars
 // disallow building if too many objects are found within (30m by default) add DZE_checkNearbyRadius = 30; to your init.sqf to change
 _pos = [player] call FNC_GetPos;
 _cnt = count (_pos nearObjects ["All",DZE_checkNearbyRadius]); 
@@ -255,15 +272,9 @@ if(_IsNearPlot == 0) then {
 	} else {
 		// disallow building plot
 		if(!_isPole) then {
-			_friendlies = _nearestPole getVariable ["plotfriends",[]];
-			_fuid  = [];
-			{
-				_friendUID = _x select 0;
-				_fuid  =  _fuid  + [_friendUID];
-			} forEach _friendlies;
-			_builder  = getPlayerUID player;
+			_friendlies		= player getVariable ["friendlyTo",[]];
 			// check if friendly to owner
-			if(_builder in _fuid) then {
+			if(_ownerID in _friendlies) then {
 				_canBuildOnPlot = true;
 			};
 		};
@@ -521,10 +532,10 @@ if (_hasRequiredTools && _hasbuilditem) then {
 			deleteVehicle _objectHelper;
 		};
 		
-		if(_location1 distance _objectHelperPos > 15) exitWith {
+		if(_location1 distance _objectHelperPos > 30) exitWith {
 			_isOk = false;
 			_cancel = true;
-			_reason = "Object is placed to far away from where you started building (within 15 meters)";
+			_reason = "Object is placed to far away from where you started building (within 30 meters)";
 			detach _object;
 			deleteVehicle _object;
 			detach _objectHelper;
@@ -584,29 +595,12 @@ if (_hasRequiredTools && _hasbuilditem) then {
 	// No building in trader zones
 	if(!canbuild) then { _cancel = true; _reason = "Cannot build in a city."; };
 	
-	// No building in bank zones
-	if(!canbuildbank) then { _cancel = true; _reason = "Cannot build near a bank."; };
-	
-	if(!canbuildvend) then { _cancel = true; _reason = "Cannot build near a donor vehicle vending machine."; };
-	
-	//Disallow building if high loot building too close
-	if ({typeOf _x in XGNoBuild} count nearestObjects[player, XGNoBuild, 100] > 0) then {
-		_cancel = true;
-		_reason = "You are building too close to a high loot building.";
-	};
-	
 	if(!_cancel) then {
 
 		_classname = _classnametmp;
 
 		// Start Build
 		_tmpbuilt = createVehicle [_classname, _location, [], 0, "CAN_COLLIDE"];
-//#########################INDESTRUCTIBLE ITEMS#########################
-		if ((typeOf _tmpbuilt) in indestructible) then {
-			_tmpbuilt addEventHandler ["HandleDamage", {false}];
-			_tmpbuilt enableSimulation false;
-		};
-//######################################################################
 		_tmpbuilt setdir _dir;
 
 		// Get position based on object
@@ -798,9 +792,9 @@ if (_hasRequiredTools && _hasbuilditem) then {
 					};
 
 					_tmpbuilt setVariable ["CharacterID",_combination,true];
-					_tmpbuilt setVariable ["ownerPUID",_playerID,true];
+					//_tmpbuilt setVariable ["ownerPUID",_playerID,true];
 
-					PVDZE_obj_Publish = [_combination,_tmpbuilt,[_dir,_location,_vector,_playerUID],_classname];
+					PVDZE_obj_Publish = [_combination,_tmpbuilt,[_dir,_location],_classname,_vector,_playerUID];
 					//diag_log "Publish Lockable";
 					publicVariableServer "PVDZE_obj_Publish";
 
@@ -808,13 +802,13 @@ if (_hasRequiredTools && _hasbuilditem) then {
                     systemChat format [(localize "str_epoch_player_140"),_combinationDisplay,_text];
 				} else {
 					_tmpbuilt setVariable ["CharacterID",dayz_characterID,true];
-					_tmpbuilt setVariable ["ownerPUID",_playerID,true];
+					//_tmpbuilt setVariable ["ownerPUID",_playerID,true];
 					
 					// fire?
 					if(_tmpbuilt isKindOf "Land_Fire_DZ") then {
 						_tmpbuilt spawn player_fireMonitor;
 					} else {
-						PVDZE_obj_Publish = [dayz_characterID,_tmpbuilt,[_dir,_location,_vector,_playerUID],_classname];
+						PVDZE_obj_Publish = [dayz_characterID,_tmpbuilt,[_dir,_location],_classname,_vector,_playerUID];
 						publicVariableServer "PVDZE_obj_Publish";
 					};
 				};
@@ -823,7 +817,7 @@ if (_hasRequiredTools && _hasbuilditem) then {
 				cutText [(localize "str_epoch_player_46") , "PLAIN DOWN"];
 				{
 					[player,_x] call BIS_fnc_invAdd;
-				} forEach _temp_removed_array;				
+				} forEach _temp_removed_array;
 			};
 
 		} else {
