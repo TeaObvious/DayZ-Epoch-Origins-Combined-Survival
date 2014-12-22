@@ -1,3 +1,4 @@
+local_lockUnlock = compile preprocessFileLineNumbers "\z\addons\eocs\compile\local_lockUnlock.sqf";
 object_hasMaterial = compile preprocessFileLineNumbers "\z\addons\eocs\compile\object_hasMaterial.sqf";
 object_removeItems = compile preprocessFileLineNumbers "\z\addons\eocs\compile\object_removeItems.sqf";
 
