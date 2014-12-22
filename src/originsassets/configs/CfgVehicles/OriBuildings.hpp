@@ -44,6 +44,7 @@ class Bandit_Level_1_DZEOCS_Dummy : Uroven1DrevenaBudka { scope=1; class UserAct
 class Bandit_Level_1_DZEOCS: Bandit_Level_1_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "banditiUroven1DrevenaBudka_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -82,6 +83,7 @@ class Bandit_Level_2_DZEOCS_Dummy : Uroven2KladaDomek { scope=1; class UserActio
 class Bandit_Level_2_DZEOCS: Bandit_Level_2_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "banditiUroven2KladaDomek_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -121,6 +123,7 @@ class Bandit_Level_3_DZEOCS_Dummy : Uroven3DrevenyDomek { scope=1; class UserAct
 class Bandit_Level_3_DZEOCS: Bandit_Level_3_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "banditiUroven3DrevenyDomek_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -159,6 +162,7 @@ class Hero_Level_1_DZEOCS_Dummy : Uroven1VelkaBudka { scope=1; class UserActions
 class Hero_Level_1_DZEOCS: Hero_Level_1_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "gerojUroven1VelkaBudka_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -196,6 +200,7 @@ class Hero_Level_2_DZEOCS_Dummy : Uroven2MalyDomek { scope=1; class UserActions;
 class Hero_Level_2_DZEOCS: Hero_Level_2_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "gerojUroven2MalyDomek_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -234,6 +239,7 @@ class Hero_Level_3_DZEOCS_Dummy : Uroven3VelkyDomek { scope=1; class UserActions
 class Hero_Level_3_DZEOCS: Hero_Level_3_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "gerojUroven3VelkyDomek_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -272,6 +278,7 @@ class SmallGarage_DZEOCS_Dummy : malaGaraz { scope=1; class UserActions; };
 class SmallGarage_DZEOCS: SmallGarage_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "malaGaraz_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
@@ -309,6 +316,7 @@ class BigGarage_DZEOCS_Dummy : velkaGaraz { scope=1; class UserActions; };
 class BigGarage_DZEOCS: BigGarage_DZEOCS_Dummy
 {
 	scope=2;
+	//GhostPreview = "velkaGaraz_ghostg_gs";
 	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
