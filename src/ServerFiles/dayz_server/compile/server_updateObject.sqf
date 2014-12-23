@@ -45,42 +45,17 @@ _needUpdate = _object in needUpdate_objects;
 
 // TODO ----------------------
 _object_position = {
-	private["_vehicleLock","_skinFiles","_animationStates","_position","_worldspace","_fuel","_key"];
-		_position = getPosATL _object;
-		_vector = _object getVariable ["vector",[]];
-		_ownerPUID = _object getVariable ["ownerPUID",""];
-		_skinFiles = _object getVariable ["skinFiles",[]];
-		_animationStates = _object getVariable ["animationStates",[]];
-		_buildStage = _object getVariable ["buildStage", 0];
-		_attachedObjects = [];
+	private["_worldspace","_fuel","_key"];
+	_worldspace = _object call serializeExtendedObjectData;
+	
+	_fuel = 0;
+	if (_object isKindOf "AllVehicles") then {
+		_fuel = fuel _object;
+	};
 
-		_vehicleLock = 0;
-		if (locked _object) then {
-			_vehicleLock = 1;
-		};
-		
-		_worldspace = [
-			round(direction _object),
-			_position,
-			_vector,
-			_ownerPUID,
-			[
-				_vehicleLock,
-				_buildStage,
-				_skinFiles,
-				_animationStates,
-				_attachedObjects
-			]
-		];
-		
-		_fuel = 0;
-		if (_object isKindOf "AllVehicles") then {
-			_fuel = fuel _object;
-		};
-
-		_key = format["CHILD:305:%1:%2:%3:",_objectID,_worldspace,_fuel];
-		//diag_log ("HIVE: WRITE: "+ str(_key));
-		_key call server_hiveWrite;
+	_key = format["CHILD:305:%1:%2:%3:",_objectID,_worldspace,_fuel];
+	//diag_log ("HIVE: WRITE: "+ str(_key));
+	_key call server_hiveWrite;
 };
 
 _object_inventory = {
@@ -196,32 +171,7 @@ _object_changeCharacterID = {
 		_object setHit ["_selection", _hit];
 	} forEach _hitpoints;
 	/****** BEGIN From _object_position ******/
-	_position = getPosATL _object;
-	_vector = _object getVariable ["vector",[]];
-	_ownerPUID = _object getVariable ["ownerPUID",""];
-	_skinFiles = _object getVariable ["skinFiles",[]];
-	_animationStates = _object getVariable ["animationStates",[]];
-	_buildStage = _object getVariable ["buildStage", 0];
-	_attachedObjects = [];
-
-	_vehicleLock = 0;
-	if (locked _object) then {
-		_vehicleLock = 1;
-	};
-	
-	_worldspace = [
-		round(direction _object),
-		_position,
-		_vector,
-		_ownerPUID,
-		[
-			_vehicleLock,
-			_buildStage,
-			_skinFiles,
-			_animationStates,
-			_attachedObjects
-		]
-	];
+	_worldspace = _object call serializeExtendedObjectData;
 	
 	_fuel = 0;
 	if (_object isKindOf "AllVehicles") then {

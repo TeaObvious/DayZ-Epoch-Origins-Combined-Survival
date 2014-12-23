@@ -98,7 +98,7 @@ if (isServer && isNil "sm_done") then {
 		
 		_dir = 0;
 		_pos = [0,0,0];
-		_extendedPos = [];
+		_extendedPos = "";
 		_vector = [];
 		_ownerPUID = "";
 
@@ -111,18 +111,18 @@ if (isServer && isNil "sm_done") then {
 		_worldspaceLength = count _worldspace;
 		if (_worldspaceLength >= 2) then {
 			_dir = _worldspace select 0;
-			if (count (_worldspace select 1) == 6) then {
-				_tmp = _worldspace select 1;
-				_pos = [_tmp select 0 + _tmp select 3, _tmp select 1 + _tmp select 4, _tmp select 2 + _tmp select 5];
-				_extendedPos = _tmp;
-				_wsDone = true;
-			} else {
-				_pos = _worldspace select 1;
-				_wsDone = true;
+			_pos = _worldspace select 1;
+			// convert precise base building position string to position
+			// do not expect precise direction, because it is not needed if using build vectors
+			if (typeName (_pos) == "STRING") then {
+				_extendedPos = _pos;
+				_pos = call compile _pos;
 			};
+			_wsDone = true;
 		};
 
 		if (_worldspaceLength >= 3) then {
+			// parse build vectors and owner steamid
 			if (_worldspaceLength >= 5) then {
 				/*
 				_vector = _worldspace select 2;
@@ -271,7 +271,7 @@ if (isServer && isNil "sm_done") then {
 				_object enableSimulation false;
 				// used for inplace upgrades && lock/unlock of safe
 				_object setVariable ["OEMPos", _pos, true];
-				if (count _extendedPos > 0) then {
+				if (_extendedPos != "") then {
 					_object setVariable["extendedPos",_extendedPos,true];
 				};
 				if (count _vector > 0) then {

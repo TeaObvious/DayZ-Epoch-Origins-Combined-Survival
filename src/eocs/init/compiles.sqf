@@ -1,6 +1,8 @@
 local_lockUnlock = compile preprocessFileLineNumbers "\z\addons\eocs\compile\local_lockUnlock.sqf";
 object_hasMaterial = compile preprocessFileLineNumbers "\z\addons\eocs\compile\object_hasMaterial.sqf";
 object_removeItems = compile preprocessFileLineNumbers "\z\addons\eocs\compile\object_removeItems.sqf";
+serializeExtendedObjectData = compile preprocessFileLineNumbers "\z\addons\eocs\compile\serializeExtendedObjectData.sqf";
+
 FNC_GetPlayerUID = {
 	private ["_object","_version","_PID"];
 	_object = _this select 0;
@@ -27,7 +29,10 @@ if (!isDedicated) then {
 	player_LockUnlock = 		compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_LockUnlock.sqf";
 	player_craftItem = 			compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_craftItem.sqf";
 	if(DZEOCS_SnapSys) then {
+		dayz_spaceInterrupt = 	compile preprocessFileLineNumbers "\z\addons\eocs\external\snap_build\dayz_spaceInterrupt.sqf";
 		player_build =			compile preprocessFileLineNumbers "\z\addons\eocs\external\snap_build\player_build.sqf";
 		snap_build = 			compile preprocessFileLineNumbers "\z\addons\eocs\external\snap_build\snap_build.sqf";
 	};
 };
+
+[] execVM "\z\addons\eocs\external\killzonekid\PositionToString.sqf";

@@ -18,9 +18,13 @@ if (!_allowed) exitWith { deleteVehicle _object; };
 //get UID
 _uid = _worldspace call dayz_objectUID2;
 
+// construct new worldspace array with custom data
+_worldspace set [1, (_worldspace select 1) call KK_fnc_positionToString];
 _worldspace set [2, _vector];
 _worldspace set [3, _ownerPUID];
 _worldspace set [4, [1,0,[],[],[]]];
+
+_object setVariable["extendedPos",(_worldspace select 1),true];
 
 if (count _vector > 0) then {
 	_object setVariable["vector",_vector,true];
