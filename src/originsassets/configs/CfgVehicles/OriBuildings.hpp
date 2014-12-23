@@ -45,7 +45,7 @@ class Bandit_Level_1_DZEOCS: Bandit_Level_1_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "banditiUroven1DrevenaBudka_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -84,7 +84,7 @@ class Bandit_Level_2_DZEOCS: Bandit_Level_2_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "banditiUroven2KladaDomek_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -124,7 +124,7 @@ class Bandit_Level_3_DZEOCS: Bandit_Level_3_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "banditiUroven3DrevenyDomek_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -163,7 +163,7 @@ class Hero_Level_1_DZEOCS: Hero_Level_1_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "gerojUroven1VelkaBudka_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -201,7 +201,7 @@ class Hero_Level_2_DZEOCS: Hero_Level_2_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "gerojUroven2MalyDomek_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -240,7 +240,7 @@ class Hero_Level_3_DZEOCS: Hero_Level_3_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "gerojUroven3VelkyDomek_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -279,7 +279,7 @@ class SmallGarage_DZEOCS: SmallGarage_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "malaGaraz_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -317,7 +317,7 @@ class BigGarage_DZEOCS: BigGarage_DZEOCS_Dummy
 {
 	scope=2;
 	//GhostPreview = "velkaGaraz_ghostg_gs";
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -355,7 +355,7 @@ class Kings_Pyramid_DZEOCS_Dummy : kingramida { scope=1; class UserActions; };
 class Kings_Pyramid_DZEOCS: Kings_Pyramid_DZEOCS_Dummy
 {
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,1.2};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
@@ -432,7 +432,7 @@ class Bandit_Nest_Level_1_DZEOCS_Dummy : elektro { scope=1; class UserActions; }
 class Bandit_Nest_Level_1_DZEOCS : Bandit_Nest_Level_1_DZEOCS_Dummy 
 { 
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
 
 class elektro2;
@@ -440,7 +440,7 @@ class Bandit_Nest_Level_2_DZEOCS_Dummy : elektro2 { scope=1; class UserActions; 
 class Bandit_Nest_Level_2_DZEOCS : Bandit_Nest_Level_2_DZEOCS_Dummy
 { 
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
 
 
@@ -449,7 +449,7 @@ class Bandit_Nest_Level_3_DZEOCS_Dummy : elektro3 { scope=1; class UserActions; 
 class Bandit_Nest_Level_3_DZEOCS : Bandit_Nest_Level_3_DZEOCS_Dummy
 { 
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
 
 class elektro_hero;
@@ -457,7 +457,7 @@ class Hero_Nest_Level_1_DZEOCS_Dummy : elektro_hero { scope=1; class UserActions
 class Hero_Nest_Level_1_DZEOCS : Hero_Nest_Level_1_DZEOCS_Dummy
 {
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
 
 class elektro2_hero;
@@ -465,7 +465,7 @@ class Hero_Nest_Level_2_DZEOCS_Dummy : elektro2_hero { scope=1; class UserAction
 class Hero_Nest_Level_2_DZEOCS : Hero_Nest_Level_2_DZEOCS_Dummy
 { 
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
 
 class elektro3_hero;
@@ -473,5 +473,5 @@ class Hero_Nest_Level_3_DZEOCS_Dummy : elektro3_hero { scope=1;	class UserAction
 class Hero_Nest_Level_3_DZEOCS : Hero_Nest_Level_3_DZEOCS_Dummy
 { 
 	scope=2;
-	offset[] = {0,12,2};
+	offset[] = {0,10,5};
 };
