@@ -12,5 +12,8 @@ if (isServer) then {
 if(isNil "DZEOCS_AdminBuild") then {
 	DZEOCS_AdminBuild = [];
 };
+if(isNil "DZE_noRotate") then {
+	DZE_noRotate = ["ItemVault","ItemWoodStairs","ItemLockbox","ItemWoodStairsSupport","ItemWoodLadder","30m_plot_kit","workbench_kit"]; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
+};
 
 dayz_updateObjects = dayz_updateObjects + ["Land_A_tent"];
