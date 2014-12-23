@@ -21,6 +21,7 @@ FNC_GetPlayerUID = {
 };
 	
 if (!isDedicated) then {
+	zombie_generate = 			compile preprocessFileLineNumbers "\z\addons\eocs\compile\zombie_generate.sqf";
 	player_doActionLoop = 		compile preprocessFileLineNumbers "\z\addons\eocs\compile\player_doActionLoop.sqf";
 	player_pack_tempobject = 	compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_pack_tempobject.sqf";
 	player_build_tempobject = 	compile preprocessFileLineNumbers "\z\addons\eocs\actions\player_build_tempobject.sqf";

@@ -9,6 +9,10 @@ if (isServer) then {
 	dayz_allowedObjects = dayz_allowedObjects + DZEOC_allowedObjects;
 };
 
+if(isNil "DZEOCS_DoctorIvanSpawnChance") then {
+	DZEOCS_DoctorIvanSpawnChance = 0.05;
+};
+
 if(isNil "DZEOCS_SnapSys") then {
 	DZEOCS_SnapSys = true;
 };
