@@ -349,8 +349,6 @@ if (_hasRequiredTools && _hasbuilditem) then {
 	DZE_memDir = getDir _objectHelper;
 	DZE_memForBack = 0;
 	DZE_memLeftRight = 0;
-	DZE_curPitch = 45;
-
 	if !(_classnametmp in DZE_noRotate) then{
 		s_player_setVectorsReset = player addaction ["Reset","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","reset"];
 		s_player_setVectorsForward = player addaction ["Pitch Forward","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","forward"];

@@ -17,6 +17,10 @@ if(isNil "DZE_noRotate") then {
 	DZE_noRotate = ["ItemVault","ItemWoodStairs","ItemLockbox","ItemWoodStairsSupport","ItemWoodLadder","30m_plot_kit","workbench_kit"]; //Objects that cannot be rotated. Ex: DZE_noRotate = ["VaultStorageLocked"]
 };
 
+if(isNil "DZE_curPitch") then {
+	DZE_curPitch = 45; //Starting value for pitch change valid values are 1, 5 and 45 E.G, use DZE_curPitch = 5; in your init.sqf to hardset it to 5 degrees at a time
+};
+
 if(isNil "DZEOCS_SnapSys") then {
 	DZEOCS_SnapSys = true;
 };
