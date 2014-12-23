@@ -9,8 +9,16 @@ if (isServer) then {
 	dayz_allowedObjects = dayz_allowedObjects + DZEOC_allowedObjects;
 };
 
+if(isNil "DZEOCS_SnapSys") then {
+	DZEOCS_SnapSys = true;
+};
+
+if(isNil "DZEOCS_UseMissionSnapPoints") then {
+	DZEOCS_UseMissionSnapPoints = false;
+};
+
 if(isNil "DZEOCS_AdminBuild") then {
-	DZEOCS_AdminBuild = [];
+	DZEOCS_AdminBuild = ["00000000000000000"];
 };
 
 if(isNil "DZE_noRotate") then {
@@ -19,10 +27,6 @@ if(isNil "DZE_noRotate") then {
 
 if(isNil "DZE_curPitch") then {
 	DZE_curPitch = 45; //Starting value for pitch change valid values are 1, 5 and 45 E.G, use DZE_curPitch = 5; in your init.sqf to hardset it to 5 degrees at a time
-};
-
-if(isNil "DZEOCS_SnapSys") then {
-	DZEOCS_SnapSys = true;
 };
 
 if(isNil "DayZ_UseSteamID") then {

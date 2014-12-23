@@ -340,9 +340,14 @@ if (_hasRequiredTools && _hasbuilditem) then {
 	_position = [_objectHelper] call FNC_GetPos;
 	
 	_objHDiff = 0;
-
-	if (isClass (missionConfigFile >> "SnapBuilding" >> _classname)) then {	
-		["","","",["Init",_object,_classname,_objectHelper]] spawn snap_build;
+	if(DZEOCS_UseMissionSnapPoints) then {
+		if (isClass (missionConfigFile >> "SnapBuilding" >> _classname)) then {	
+			["","","",["Init",_object,_classname,_objectHelper]] spawn snap_build;
+		};
+	} else {
+		if (isClass (configFile >> "SnapBuilding" >> _classname)) then {
+			["","","",["Init",_object,_classname,_objectHelper]] spawn snap_build;
+		};
 	};
 	
 	DZE_updateVec = false;

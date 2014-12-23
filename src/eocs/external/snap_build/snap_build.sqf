@@ -12,7 +12,11 @@ _objectHelper = _this select 3 select 3;
 _selectedAction = _this select 3 select 4;
 
 //Snap config file
-_cfg = (missionConfigFile >> "SnapBuilding" >> _classname);
+if(DZEOCS_UseMissionSnapPoints) then {
+	_cfg = (missionConfigFile >> "SnapBuilding" >> _classname);
+} else {
+	_cfg = (configFile >> "SnapBuilding" >> _classname);
+};
 _whitelist = getArray (_cfg >> "snapTo");
 _points = getArray (_cfg >> "points");
 _radius = getNumber (_cfg >> "radius");
@@ -31,15 +35,15 @@ fnc_snapActionCleanup = {
 	player removeAction s_player_toggleSnapSelect; s_player_toggleSnapSelect = -1;
 	if (count s_player_toggleSnapSelectPoint != 0) then {{player removeAction _x;} count s_player_toggleSnapSelectPoint; s_player_toggleSnapSelectPoint=[]; snapActions = -1;};
 	if (_s1 > 0) then {
-		s_player_toggleSnap = player addaction [format[("<t color=""#ffffff"">" + ("Snap: %1") +"</t>"),snapActionState],"\z\eocs\external\snap_build\snap_build.sqf",[snapActionState,_object,_classname,_objectHelper],6,false,true];
+		s_player_toggleSnap = player addaction [format[("<t color=""#ffffff"">" + ("Snap: %1") +"</t>"),snapActionState],"\z\addons\eocs\external\snap_build\snap_build.sqf",[snapActionState,_object,_classname,_objectHelper],6,false,true];
 	};
 	if (_s2 > 0) then {
-		s_player_toggleSnapSelect = player addaction [format[("<t color=""#ffffff"">" + ("Snap Point: %1") +"</t>"),snapActionStateSelect],"\z\eocs\external\snap_build\snap_build.sqf",[snapActionStateSelect,_object,_classname,_objectHelper],5,false,true];
+		s_player_toggleSnapSelect = player addaction [format[("<t color=""#ffffff"">" + ("Snap Point: %1") +"</t>"),snapActionStateSelect],"\z\addons\eocs\external\snap_build\snap_build.sqf",[snapActionStateSelect,_object,_classname,_objectHelper],5,false,true];
 	};
 	if (_s3 > 0) then {
 		s_player_toggleSnapSelectPoint=[];
 		_cnt = 0;
-		{snapActions = player addaction [format[("<t color=""#ffffff"">" + ("%1)Select: %2") +"</t>"),_cnt,_x select 3],"\z\eocs\external\snap_build\snap_build.sqf",["Selected",_object,_classname,_objectHelper,_cnt],4,false,false];
+		{snapActions = player addaction [format[("<t color=""#ffffff"">" + ("%1)Select: %2") +"</t>"),_cnt,_x select 3],"\z\addons\eocs\external\snap_build\snap_build.sqf",["Selected",_object,_classname,_objectHelper,_cnt],4,false,false];
 		s_player_toggleSnapSelectPoint set [count s_player_toggleSnapSelectPoint,snapActions];
 		_cnt = _cnt+1;
 	}count _points;
@@ -63,7 +67,11 @@ fnc_initSnapPointsNearby = {
 	snapGizmosNearby = [];	
 	{	
 		_nearbyObject = _x;
-		_pointsNearby = getArray (missionConfigFile >> "SnapBuilding" >> (typeOf _x) >> "points");
+		if(DZEOCS_UseMissionSnapPoints) then {
+			_pointsNearby = getArray (missionConfigFile >> "SnapBuilding" >> (typeOf _x) >> "points");
+		} else {
+			_pointsNearby = getArray (configFile >> "SnapBuilding" >> (typeOf _x) >> "points");
+		};
 		{
 			_objectSnapGizmo = "Sign_sphere10cm_EP1" createVehicleLocal [0,0,0];
 			_objectSnapGizmo setobjecttexture [0,_objColorInactive];
