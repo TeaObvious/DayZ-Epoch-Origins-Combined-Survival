@@ -1,13 +1,13 @@
 DayZ-Epoch-Origins-Combined-Survival
 ====================================
 
-This project will not copy the DayZ Origins Mod one-to-one and neither provide Server Files, which are compatible to the unmodded Version of this Mod.
+This project will not copy the DayZ Origins Mod one-to-one, nor will it provide any server files that are compatible with any regular version of the DayZ Origins mod.
 
-The main target of this project is to improve the experience of DayZ Epoch in combination with other Mods like the DayZ Origins Mod 1.7.9.
-This is gained by fixing some bugs of the current DayZ Epoch version and adding missing configurations, scripts.
+The main target of this project is to improve the experience of DayZ Epoch in combination with the DayZ Origins 1.7.9 Mod.
+This is better experience is gained by fixing some bugs of the current DayZ Epoch version and adding missing configurations and scripts from DayZ Origins 1.7.9.
 
 In addition there will be a set of different predefined loottables for every need, vehicle skins and some new features.
-New Features will be for example a plantingsystem and a tuning shop, where you can improve your vehicles.
+New features will be for example a planting system and a tuning shop in which you can improve your vehicles.
 
 ====================================
 GitHub Collaborators (In order of most commits)
@@ -18,14 +18,15 @@ GitHub Collaborators (In order of most commits)
 
 License Details
 ====================================
-This community addon allows to use all important DayZ OriginsMod assets which are not usable in conjunction DayZ Epoch.
-All Dayz Origins Mod assets will not be included and remain in ownership of the Origins Mod team. http://www.originsmod.info
+This community addon allows you to use all important DayZ Origins Mod assets which without this mod are not usable in conjunction with DayZ Epoch.
+All DayZ Origins Mod assets are to remain ownership of the Origins Mod team. http://www.originsmod.info
 
-This project is non-profit and the intentions are to enable usage of DayZ Origins content in conjunction with the DayZ Epoch mod. It is provided free to use everyone who desires it.
+This project is non-profit and the intentions are to enable usage of DayZ Origins content in conjunction with the DayZ Epoch mod. It is provided free for everyone to use.
 
-Most parts of this addon are self-written while the remaining files are based on the DayZ files of the Origings Mod:
-dayz.pbo, dayz\_anim.pbo, dayz\_code.pbo, dayz\_equip.pbo, dayz\_sfx.pbo, dayz\_weapons.pbo
-These files are licensed under DML-SA license which can be found here: http://www.bistudio.com/community/licenses/dayz-mod-license-share-alike
+Most parts of this addon are self-written while the remaining files are based on the files from the DayZ Origins Mod:
+
+These following files from DayZ Origins dayz.pbo, dayz_anim.pbo, dayz_code.pbo, dayz_equip.pbo, dayz_sfx.pbo and dayz_weapons.pbo
+are licensed under DML-SA license which can be found here: http://www.bistudio.com/community/licenses/dayz-mod-license-share-alike
 
 In which it states as per Section 2 that:
 
