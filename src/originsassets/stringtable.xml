@@ -1169,6 +1169,18 @@
     </Key>
   </Package>
   <Package name="origins_pack">
+    <Key ID="STR_CEMENT_MIXER">
+      <Original>Cement mixer</Original>
+      <English>Cement mixer</English>
+      <German>Zementmischer</German>
+      <Russian>Бетономешалка</Russian>
+    </Key>
+    <Key ID="STR_CEMENT_MIXER_DESC">
+      <Original>Cement mixer is used for building house foundation.</Original>
+      <English>Cement mixer is used for building house foundation.</English>
+      <German>Zementmischer für den Aufbau des Fundaments.</German>
+      <Russian>Бетономешалка для постройки фундамента дома.</Russian>
+    </Key>
     <Key ID="STR_CEMENT_MIXER_DIS">
       <Original>Cem.Mixer.(Dis.)</Original>
       <English>Cem.Mixer.(Dis.)</English>
