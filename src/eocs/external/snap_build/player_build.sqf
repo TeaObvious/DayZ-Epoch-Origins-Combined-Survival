@@ -349,16 +349,18 @@ if (_hasRequiredTools && _hasbuilditem) then {
 	DZE_memDir = getDir _objectHelper;
 	DZE_memForBack = 0;
 	DZE_memLeftRight = 0;
+	DZE_curPitch = 45;
+
 	if !(_classnametmp in DZE_noRotate) then{
-		s_player_setVectorsReset = player addaction ["Reset","\z\eocs\external\snap_build\player_vectorChange.sqf","reset"];
-		s_player_setVectorsForward = player addaction ["Pitch Forward","\z\eocs\external\snap_build\player_vectorChange.sqf","forward"];
-		s_player_setVectorsBack = player addaction ["Pitch Back","\z\eocs\external\snap_build\player_vectorChange.sqf","back"];
-		s_player_setVectorsLeft = player addaction ["Bank Left","\z\eocs\external\snap_build\player_vectorChange.sqf","left"];
-		s_player_setVectorsRight = player addaction ["Bank Right","\z\eocs\external\snap_build\player_vectorChange.sqf","right"];
-		s_player_setVectors1 = player addaction ["Increment by 1 degree","\z\eocs\external\snap_build\player_vectorChange.sqf","1"];
-		s_player_setVectors5 = player addaction ["Increment by 5 degrees","\z\eocs\external\snap_build\player_vectorChange.sqf","5"];
-		s_player_setVectors45 = player addaction ["Increment by 45 degrees","\z\eocs\external\snap_build\player_vectorChange.sqf","45"];
-		s_player_setVectors90 = player addaction ["Increment by 90 degrees","\z\eocs\external\snap_build\player_vectorChange.sqf","90"];
+		s_player_setVectorsReset = player addaction ["Reset","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","reset"];
+		s_player_setVectorsForward = player addaction ["Pitch Forward","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","forward"];
+		s_player_setVectorsBack = player addaction ["Pitch Back","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","back"];
+		s_player_setVectorsLeft = player addaction ["Bank Left","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","left"];
+		s_player_setVectorsRight = player addaction ["Bank Right","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","right"];
+		s_player_setVectors1 = player addaction ["Increment by 1 degree","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","1"];
+		s_player_setVectors5 = player addaction ["Increment by 5 degrees","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","5"];
+		s_player_setVectors45 = player addaction ["Increment by 45 degrees","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","45"];
+		s_player_setVectors90 = player addaction ["Increment by 90 degrees","\z\addons\eocs\external\snap_build\player_vectorChange.sqf","90"];
 	};
 	while {_isOk} do {
 
