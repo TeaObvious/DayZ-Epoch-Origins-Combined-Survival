@@ -1,4 +1,4 @@
-private ["_item","_classname","_require","_text","_playerUID","_itemOldCount","_itemNewCount","_cancel","_reason","_started","_finished","_animState","_isMedic","_dis","_sfx","_hasbuilditem","_tmpbuilt","_onLadder","_isWater","_require","_text","_offset","_IsNearPlot","_isOk","_location1","_location2","_counter","_limit","_proceed","_num_removed","_position","_object","_canBuildOnPlot","_friendlies","_nearestPole","_ownerID","_findNearestPoles","_findNearestPole","_distance","_classnametmp","_ghost","_isPole","_needText","_lockable","_zheightchanged","_rotate","_combination_1","_combination_2","_combination_3","_combination_4","_combination","_combination_1_Display","_combinationDisplay","_zheightdirection","_abort","_isNear","_need","_needNear","_vehicle","_inVehicle","_requireplot","_objHDiff","_isLandFireDZ","_isTankTrap"];
+private ["_item","_classname","_require","_text","_playerUID","_itemOldCount","_itemNewCount","_cancel","_reason","_started","_finished","_animState","_isMedic","_dis","_sfx","_hasbuilditem","_tmpbuilt","_onLadder","_isWater","_require","_text","_offset","_IsNearPlot","_isOk","_location1","_location2","_counter","_limit","_proceed","_num_removed","_position","_object","_canBuildOnPlot","_friendlies","_nearestPole","_ownerID","_findNearestPoles","_findNearestPole","_distance","_classnametmp","_ghost","_isPole","_needText","_lockable","_zheightchanged","_rotate","_combination","_zheightdirection","_abort","_isNear","_need","_needNear","_vehicle","_inVehicle","_requireplot","_objHDiff","_isLandFireDZ","_isTankTrap"];
 
 if(DZE_ActionInProgress) exitWith { cutText [(localize "str_epoch_player_40") , "PLAIN DOWN"]; };
 DZE_ActionInProgress = true;
@@ -21,14 +21,23 @@ diag_log format["%1 upgrade from %2 to %3", _classname, _curStageText, _nextStag
 if (_curStage > 0 && isClass (configFile >> "CfgBuildingReceipt" >> _classname)) then {
 	_curlockable = getNumber (configFile >> "CfgBuildingReceipt" >> _classname >> _curStageText >> "lockable");
 	_nextlockable = getNumber (configFile >> "CfgBuildingReceipt" >> _classname >> _nextStageText >> "lockable");
+	_combination = "";
 	diag_log format["lockable: %1 -> %2", _curlockable, _nextlockable];
 	if (_curlockable != _nextlockable) then {
-		_combination_1 = floor(random 10);
-		_combination_2 = floor(random 10);
-		_combination_3 = floor(random 10);
-		_combination = format["%1%2%3",_combination_1,_combination_2,_combination_3];
+		_round = 0;
+		_prevNumber = 0;
+
+		while {_round < _nextlockable} do {
+			_tmp = floor(random 10);
+			// prevent multiple same numbers like 666 and leading zero
+			if (_tmp != _prevNumber) then {
+				_prevNumber = _tmp;
+				_combination = _combination + str(_prevNumber);
+				_round = _round + 1;
+			};
+		};
+
 		dayz_combination = _combination;
-		_combinationDisplay = _combination;
 
 		/*
 		_deagOK = createDialog "KeypadHouse";
@@ -72,7 +81,7 @@ if (_curStage > 0 && isClass (configFile >> "CfgBuildingReceipt" >> _classname))
 				PVDZE_veh_Update = [_object,"changeCharacterID",_combination,player];
 				publicVariableServer "PVDZE_veh_Update";
 				sleep 5;
-				cutText [format[(localize "str_epoch_player_140"),_combinationDisplay,_text], "PLAIN DOWN", 5]; //display new combination
+				cutText [format[(localize "str_epoch_player_140"),_combination,_text], "PLAIN DOWN", 5]; //display new combination
 			} else {
 				PVDZE_veh_Update = [_object,"all"];
 				publicVariableServer "PVDZE_veh_Update";
