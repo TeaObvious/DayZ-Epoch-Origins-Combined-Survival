@@ -393,7 +393,7 @@ class Stronghold_DZEOCS_Dummy : krepost { scope=1; class UserActions; };
 class Stronghold_DZEOCS: Stronghold_DZEOCS_Dummy
 {
 	scope=2;
-	offset[] = {0,20,10};
+	offset[] = {0,20,8};
 	class UserActions : UserActions
 	{
 		class upgradeBuilding
