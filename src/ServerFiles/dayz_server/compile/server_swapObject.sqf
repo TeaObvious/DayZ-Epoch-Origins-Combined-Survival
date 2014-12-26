@@ -1,4 +1,4 @@
-private ["_activatingplayerUID","_class","_uid","_charID","_object","_worldspace","_key","_allowed","_obj","_objectID","_objectUID","_proceed","_activatingplayer"];
+private ["_activatingplayerUID","_class","_uid","_charID","_object","_worldspace","_key","_allowed","_obj","_objectID","_objectUID","_proceed","_activatingplayer","_dir","_position","_vector","_ownerPUID","_skinFiles","_animationStates","_buildStage","_vehicleLock","_attachedObjects"];
 //[dayz_characterID,_tent,[_dir,_location],"TentStorage"]
 _charID =		_this select 0;
 _object = 		_this select 1;
@@ -19,6 +19,8 @@ _ownerPUID = "";
 _skinFiles = [];
 _animationStates = [];
 _buildStage = 0;
+_vehicleLock = 0;
+_attachedObjects = [];
 
 if(!isNull(_obj)) then {
 	// Find objectID
@@ -33,11 +35,10 @@ if(!isNull(_obj)) then {
 	_animationStates = _obj getVariable ["animationStates",[]];
 	_buildStage = _obj getVariable ["buildStage", 0];
 	
-	_vehicleLock = 0;
 	if (locked _obj) then {
 		_vehicleLock = 1;
 	};
-	_attachedObjects = [];
+	
 	
 	
 	if !(DZE_GodModeBase) then {
@@ -79,6 +80,9 @@ _object setVariable ["ownerPUID",_ownerPUID,true];
 _object setVariable ["skinFiles",_skinFiles,true];
 _object setVariable ["animationStates",_animationStates,true];
 _object setVariable ["buildStage",_buildStage,true];
+if (count _vector > 0) then {
+	_object setVectorDirAndUp _vector;
+};
 //diag_log ("PUBLISH: Attempt " + str(_object));
 
 //get UID
