@@ -25,13 +25,19 @@ if(!isNull(_obj)) then {
 	_objectID 	= _obj getVariable ["ObjectID","0"];
 	// Find objectUID
 	_objectUID	= _obj getVariable ["ObjectUID","0"];
+
+	_position = _obj getVariable ["extendedPos",_worldspace select 1];
+	_vector = _obj getVariable ["vector",[]];
+	_ownerPUID = _obj getVariable ["ownerPUID",""];
+	_skinFiles = _obj getVariable ["skinFiles",[]];
+	_animationStates = _obj getVariable ["animationStates",[]];
+	_buildStage = _obj getVariable ["buildStage", 0];
 	
-	_position = _object getVariable ["extendedPos",_worldspace select 1];
-	_vector = _object getVariable ["vector",[]];
-	_ownerPUID = _object getVariable ["ownerPUID",""];
-	_skinFiles = _object getVariable ["skinFiles",[]];
-	_animationStates = _object getVariable ["animationStates",[]];
-	_buildStage = _object getVariable ["buildStage", 0];
+	_vehicleLock = 0;
+	if (locked _obj) then {
+		_vehicleLock = 1;
+	};
+	_attachedObjects = [];
 	
 	
 	if !(DZE_GodModeBase) then {

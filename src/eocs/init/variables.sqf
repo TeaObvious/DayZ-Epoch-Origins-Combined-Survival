@@ -40,6 +40,3 @@ if(isNil "DayZ_UseSteamID") then {
 if(isNil "DZE_APlotforLife") then {
 	DZE_APlotforLife = true;
 };
-
-
-dayz_updateObjects = dayz_updateObjects + ["Land_A_tent"];
