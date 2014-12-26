@@ -363,4 +363,17 @@ class CfgBuildingReceipt {
 			animationStates[] = {{"fundament",0},{"boxes_1",0},{"boxes_2",0},{"basnja_show_1",0},{"basnja_show_2",0},{"basnja_show_3",0},{"basnja_show_4",0},{"wall_1",0},{"wall_2",0},{"wall_3",0},{"wall_4",0},{"garageRoof",0},{"chram_stupenJeden",0},{"chram_stupenDva",0},{"chram_stupenTri",0},{"chram_stupen4tiri",0},{"sklad_stupenJeden",0},{"sklad_stupenDva",0},{"sklad_stupenTri",0},{"sklad_stupen4tiri",0},{"pumpa",0},{"sleep_stupenJeden",0},{"sleep_stupenDva",0},{"sleep_stupenTri",0},{"sleep_stupen4tiri",0},{"bar_stupenJeden",0},{"bolnica_stupenJeden",0},{"chlev_stupenJeden",0}};
 		};
 	};
+	class Bandit_Nest_Level_1_DZEOCS {
+		Stages = 2;
+		class Stage1 { //foundation
+			lockable = 0;
+			stageMaterials[] = {{"ItemSPlanks",11},{"PartScrap",3},{"ItemCementBag",10},{"PartMetalS",3},{"ItemScrapCon",4},{"ItemScrews",2},{"PartChipB",3},{"PartAluminium",3},{"ItemLPlanks",7},{"ItemRope",1}};
+			animationStates[] = {};
+		};
+		class Stage2 { //first level
+			lockable = 0;
+			stageMaterials[] = {{"ItemSPlanks",11},{"PartScrap",3},{"PartMetalS",2},{"ItemScrapCon",4},{"ItemScrews",2},{"PartChipB",2},{"PartAluminium",2},{"ItemLPlanks",5},{"ItemPin",1},{"ItemBattery",1}};
+			animationStates[] = {};
+		};
+	};
 };
