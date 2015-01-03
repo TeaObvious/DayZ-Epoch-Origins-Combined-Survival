@@ -262,13 +262,14 @@ if(_IsNearPlot == 0) then {
 	//diag_log format["Player_build start: [PlayerUID = %1]  [OwnerID = %2]", _playerUID, _ownerID];
 
 	// check if friendly to owner
-	if(_playerID == _ownerID) then {  //Keep ownership
+	_addedPUIDS = _nearestPole getVariable ["AddedPUIDS", []];
+	_hasBuildRights = ((getPlayerUID player) in (_addedPUIDS));
+	if(_playerID == _ownerID || _hasBuildRights) then {  //Keep ownership
 		// owner can build anything within his plot except other plots
 		//diag_log text "Player is owner";
 		if(!_isPole) then {
 			_canBuildOnPlot = true;
 		};
-
 	} else {
 		// disallow building plot
 		if(!_isPole) then {

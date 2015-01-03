@@ -60,11 +60,16 @@ _object_position = {
 
 _object_inventory = {
 	private["_inventory","_previous","_key"];
-		_inventory = [
-			getWeaponCargo _object,
-			getMagazineCargo _object,
-			getBackpackCargo _object
-		];
+		_inventory = [];
+		if (typeOf (_object) == "Plastic_Pole_EP1_DZ") then{
+			_inventory = _object getVariable ["AddedPUIDS", []]; //We're replacing the inventory with UIDs for this item
+		} else {
+			_inventory = [
+				getWeaponCargo _object,
+				getMagazineCargo _object,
+				getBackpackCargo _object
+			];
+		};
 		_previous = str(_object getVariable["lastInventory",[]]);
 		if (str(_inventory) != _previous) then {
 			_object setVariable["lastInventory",_inventory];
@@ -156,11 +161,16 @@ _object_changeCharacterID = {
 	private["_vehicleLock","_skinFiles","_animationStates","_position","_worldspace","_fuel","_key"];
 	_charID = _this select 0;
 	_player = _this select 1;
-	_inventory = [
-		getWeaponCargo _object,
-		getMagazineCargo _object,
-		getBackpackCargo _object
-	];
+	_inventory = [];
+	if (typeOf (_object) == "Plastic_Pole_EP1_DZ") then{
+		_inventory = _object getVariable ["AddedPUIDS", []]; //We're replacing the inventory with UIDs for this item
+	} else {
+		_inventory = [
+			getWeaponCargo _object,
+			getMagazineCargo _object,
+			getBackpackCargo _object
+		];
+	};
 	_hitpoints = _object call vehicle_getHitpoints;
 	_damage = damage _object;
 	_hitarray = [];
