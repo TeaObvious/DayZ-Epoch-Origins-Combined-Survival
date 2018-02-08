@@ -1,0 +1,35 @@
+From 8ee1ccd6b8a29d4c8524535b787cefb69c1dcf92 Mon Sep 17 00:00:00 2001
+From: Legodev <Legodev@users.noreply.github.com>
+Date: Wed, 20 Aug 2014 17:26:10 +0200
+Subject: [PATCH 1/5] fixed logic error in harvestPlant
+
+---
+ SQF/dayz_code/actions/player_harvestPlant.sqf | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/SQF/dayz_code/actions/player_harvestPlant.sqf b/SQF/dayz_code/actions/player_harvestPlant.sqf
+index 103fa77f..bf916971 100644
+--- a/SQF/dayz_code/actions/player_harvestPlant.sqf
++++ b/SQF/dayz_code/actions/player_harvestPlant.sqf
+@@ -129,14 +129,15 @@ if (count(_nearestPlants) >= 1) then {
+ 						if("" == typeOf _tree) then {
+ 							_tree setDamage 1;
+ 						} else {
+-							_ObjectID = _tree getVariable ["ObjectID","unset"];
+-							_ObjectUID = _tree getVariable ["ObjectUID","unset"];
++							_ObjectID = _tree getVariable ["ObjectID","0"];
++							_ObjectUID = _tree getVariable ["ObjectUID","0"];
+ 
+ 							deleteVehicle _tree;
+ 							
+-							if(_ObjectID != "0" && _ObjectUID != "0") then {
++							if(_ObjectID != "0" || _ObjectUID != "0") then {
+ 								if(DZE_PlantingReUsePlant) then {
+ 									cutText ["ReUsePlant is not implemented\nPlant will not be downgraded", "PLAIN DOWN"];
++									sleep 5;
+ 								} else {
+ 									PVDZE_obj_Delete = [_ObjectID,_ObjectUID,player];
+ 									publicVariableServer "PVDZE_obj_Delete";
+-- 
+2.16.1
+

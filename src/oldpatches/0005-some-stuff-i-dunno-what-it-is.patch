@@ -1,0 +1,120 @@
+From 786ab8ea22d25e97b243acfafe2dbca4ea7e9392 Mon Sep 17 00:00:00 2001
+From: Legodev <Legodev@users.noreply.github.com>
+Date: Fri, 9 Feb 2018 00:20:07 +0100
+Subject: [PATCH 5/5] some stuff i dunno what it is
+
+---
+ SQF/dayz_code/Configs/CfgMagazines/DZE/Food.hpp |  8 ++---
+ SQF/dayz_code/Configs/CfgMagazines/Planting.hpp | 46 ++++++++++++++++++-------
+ 2 files changed, 38 insertions(+), 16 deletions(-)
+
+diff --git a/SQF/dayz_code/Configs/CfgMagazines/DZE/Food.hpp b/SQF/dayz_code/Configs/CfgMagazines/DZE/Food.hpp
+index 923b0dc6..af878b8d 100644
+--- a/SQF/dayz_code/Configs/CfgMagazines/DZE/Food.hpp
++++ b/SQF/dayz_code/Configs/CfgMagazines/DZE/Food.hpp
+@@ -69,9 +69,9 @@ class FoodSunFlowerSeed : FoodEdible {
+ 	scope = public;
+ 	count = 1;
+ 	bloodRegen = 100;
+-	displayName = "Bag of Sunflower Seeds";
+-	descriptionShort = "Bag of Sunflower Seeds";
++	displayName = "Sunflower Seeds";
++	descriptionShort = "A Bag of Sunflower Seeds";
+ 	weight = 0.1;
+-	model = "z\addons\dayz_communityassets\models\pistachio.p3d"; // TODO: model + icon
+-	picture = "\z\addons\dayz_communityassets\pictures\equip_pistachios_CA.paa";
++	model = "\z\addons\dayz_plantingassets\models\sun_seed.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_sun_seed_CA.paa";
+ };
+\ No newline at end of file
+diff --git a/SQF/dayz_code/Configs/CfgMagazines/Planting.hpp b/SQF/dayz_code/Configs/CfgMagazines/Planting.hpp
+index 397ab632..1809f1e2 100644
+--- a/SQF/dayz_code/Configs/CfgMagazines/Planting.hpp
++++ b/SQF/dayz_code/Configs/CfgMagazines/Planting.hpp
+@@ -4,19 +4,41 @@ class ItemFertilizer: CA_Magazine {
+ 	displayName = "Fertilizer";
+ 	descriptionShort = "Fertilizer";
+ 	weight = 0.1;
+-	model = "z\addons\dayz_communityassets\models\mre.p3d";	// TODO: model + icon
+-	picture = "\z\addons\dayz_communityassets\pictures\equip_mre_CA.paa";
++	model = "\z\addons\dayz_plantingassets\models\fertilizer.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_fertilizer_CA.paa;
+ 	type = 256;
+ };
+ 
++class ItemUnknownSeed: CA_Magazine {
++	scope = public;
++	count = 1;
++	displayName = "Unknown Seed";
++	descriptionShort = "A Bag of Unknown Seed";
++	weight = 0.1;
++	model = "\z\addons\dayz_plantingassets\models\unknown_seed.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_unknown_seed_CA.paa";
++	type = 256;
++	class ItemActions {
++		class Crafting {
++			text = "Examine Seed";
++			script = ";['Crafting','CfgMagazines', _id] spawn player_craftItem;";
++			neednearby[] = {};
++			requiretools[] = {};
++			randomOutput = 1;
++			output[] = {{"FoodSunFlowerSeed",1},{"ItemPumpkinSeed",1},{"ItemHempSeed",1},{"ItemPoppySeed",1},{"ItemWheatSeed",1}};
++			input[] = {{"ItemUnknownSeed",1}};
++		};
++	};
++};
++
+ class ItemPumpkinSeed: CA_Magazine {
+ 	scope = public;
+ 	count = 1;
+ 	displayName = "Pumpkin Seed";
+-	descriptionShort = "A Pumpkin Seed";
++	descriptionShort = "A Bag of Pumpkin Seed";
+ 	weight = 0.1;
+-	model = "\z\addons\dayz_epoch\models\doc_child1.p3d";	// TODO: model + icon
+-	picture = "\z\addons\dayz_epoch\pictures\equip_child1_ca.paa";
++	model = "\z\addons\dayz_plantingassets\models\pumpkin_seed.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_pumpkin_seed_CA.paa";
+ 	type = 256;
+ 	class ItemActions {
+ 		class Crafting
+@@ -54,10 +76,10 @@ class ItemHempSeed: CA_Magazine {
+ 	scope = public;
+ 	count = 1;
+ 	displayName = "Hemp Seed";
+-	descriptionShort = "A Hemp Seed";
++	descriptionShort = "A Bag of Hemp Seed";
+ 	weight = 0.1;
+-	model = "\z\addons\dayz_epoch\models\doc_child2.p3d";	// TODO: model + icon
+-	picture = "\z\addons\dayz_epoch\pictures\equip_child2_ca.paa";
++	model = "\z\addons\dayz_plantingassets\models\hemp_seed.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_hemp_seed_CA.paa";
+ 	type = 256;
+ 	class ItemActions {
+ 		class Crafting
+@@ -127,10 +149,10 @@ class ItemPoppySeed: CA_Magazine {
+ 	scope = public;
+ 	count = 1;
+ 	displayName = "Poppy Seed";
+-	descriptionShort = "A Poppy Seed";
++	descriptionShort = "A Bag of Poppy Seed";
+ 	weight = 0.1;
+-	model = "\z\addons\dayz_epoch\models\doc_child2.p3d";	// TODO: model + icon
+-	picture = "\z\addons\dayz_epoch\pictures\equip_child2_ca.paa";
++	model = "\z\addons\dayz_plantingassets\models\poppy_seed.p3d";
++	picture = "\z\addons\dayz_plantingassets\pictures\equip_poppy_seed_CA.paa";
+ 	type = 256;
+ 	class ItemActions {
+ 		class Crafting
+@@ -191,7 +213,7 @@ class ItemWheatSeed: CA_Magazine {
+ 	scope = public;
+ 	count = 1;
+ 	displayName = "Wheat Seed";
+-	descriptionShort = "A Wheat Seed";
++	descriptionShort = "A Bag of Wheat Seed";
+ 	weight = 0.1;
+ 	model = "\z\addons\dayz_epoch\models\doc_child2.p3d";	// TODO: model + icon
+ 	picture = "\z\addons\dayz_epoch\pictures\equip_child2_ca.paa";
+-- 
+2.16.1
+
