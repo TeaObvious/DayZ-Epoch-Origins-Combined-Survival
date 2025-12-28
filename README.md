@@ -12,7 +12,7 @@ New features will be for example a planting system and a tuning shop in which yo
 ====================================
 GitHub Collaborators (In order of most commits)
 ====================================
-* Legodev - https://github.com/Legodev/
+* TeaObvious - https://github.com/TeaObvious
 * KamikazeXeX - https://github.com/KamikazeXeX
 * Smith-a - https://github.com/Smith-a
 
